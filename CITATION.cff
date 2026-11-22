@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "symbarrier: symmetry quotient networks for micromagnetic energy barriers"
+version: 0.2.0
+license: MIT
+repository-code: "https://github.com/sungchao/symbarrier"
+keywords:
+  - micromagnetics
+  - paleomagnetism
+  - energy barriers
+  - nudged elastic band
+  - symmetry
+authors:
+  - family-names: Zhao
+    given-names: Xiang
+    orcid: "https://orcid.org/0000-0002-1168-3439"
+  - family-names: Zhao
+    given-names: Xiangyu
+    affiliation: "School of Oceanography, Shanghai Jiao Tong University"
+    orcid: "https://orcid.org/0000-0002-9008-592X"
+preferred-citation:
+  type: article
+  title: "Symmetry quotient networks: automatic reduction and verifiable upper bounds for energy barriers in micromagnetic models of magnetic grains"
+  authors:
+    - family-names: Zhao
+      given-names: Xiang
+      orcid: "https://orcid.org/0000-0002-1168-3439"
+    - family-names: Zhao
+      given-names: Xiangyu
+      orcid: "https://orcid.org/0000-0002-9008-592X"
+  journal: "Computers & Geosciences"
+  notes: "Submitted"

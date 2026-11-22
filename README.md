@@ -4,6 +4,29 @@ Symmetry quotient networks and verifiable upper bounds for energy barriers in mi
 
 Accompanies: Xiang Zhao and Xiangyu Zhao, *Symmetry quotient networks: automatic reduction and verifiable upper bounds for energy barriers in micromagnetic models of magnetic grains* (submitted to *Computers & Geosciences*). Questions and bug reports: please open an issue.
 
+## Overview
+
+The thermal stability of a magnetic grain is set by the energy barriers between its local energy minima. A grain with many minima needs a barrier for every pair of states, and each barrier normally costs one nudged-elastic-band (NEB) calculation. `symbarrier` detects the symmetry group of the grain from its mesh, combines it with time reversal, and computes the barrier network on the quotient: states and transitions related by symmetry share one path, so one NEB is run per class of state pairs. Every path maximum is an upper bound on its barrier, and every reported transition, reversal and escape barrier is the lowest bound over all computed paths, stored together with the path that realises it. The output is a barrier network with escape barriers and a rate matrix that can feed Markov or Boltzmann models of remanence acquisition.
+
+## Quick start
+
+```
+pip install .
+python examples/classes_without_merrill.py
+```
+
+This needs no micromagnetic solver. For a 100 nm truncated octahedron with a <111> vortex it prints:
+
+```
+nodes in mesh: 597; point group |G| = 48; with time reversal 96
+orbit of m0: 16 states; -m0 is state 1 (0.00 deg)
+edge classes from m0 (one NEB each): 6
+...
+unreduced pairwise network: 120 NEBs
+```
+
+The 16 symmetry-related states form 120 pairs; these fall into 7 classes, so 7 paths replace 120. With a solver installed, `symbarrier-network` runs the paths and assembles the network (see Use).
+
 ## What it does
 
 Given a discretised grain (tetrahedral mesh or regular grid with a mask) and one or more relaxed magnetisation states, `symbarrier`
@@ -58,7 +81,7 @@ python examples/classes_without_merrill.py                    # built-in 100 nm 
 python examples/classes_without_merrill.py grain.pat m0.dat   # your mesh and any saved state (x y z mx my mz per node)
 ```
 
-For the built-in case: |G| = 48 (96 with time reversal), 16 states in the orbit of m0, 6 edge classes (6 NEBs instead of 120).
+For the built-in case: |G| = 48 (96 with time reversal), 16 states in the orbit of m0, 6 classes of edges from m0 besides the direct reversal; all 120 pairs of the orbit fall into 7 classes.
 
 ## Tests
 
@@ -71,6 +94,12 @@ For the built-in case: |G| = 48 (96 with time reversal), 16 states in the orbit 
 ## Hardware
 
 Any machine that runs the chosen solver; all paper timings are single-core.
+
+## How to cite
+
+Xiang Zhao and Xiangyu Zhao. Symmetry quotient networks: automatic reduction and verifiable upper bounds for energy barriers in micromagnetic models of magnetic grains. Submitted to *Computers & Geosciences*.
+
+The software metadata are in `CITATION.cff`; GitHub shows them under "Cite this repository".
 
 ## License
 
