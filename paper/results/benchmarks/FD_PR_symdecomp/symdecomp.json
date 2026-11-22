@@ -1,0 +1,63 @@
+{
+ "system": "prism",
+ "n_rotations": 8,
+ "n_orbit_states": 4,
+ "minus_m0_match_rms_deg": 0.008,
+ "classes": {
+  "95deg": {
+   "rep": 2,
+   "members": [
+    2,
+    3
+   ],
+   "rms_to_m0_deg": 96.6
+  }
+ },
+ "hops": {
+  "2": {
+   "class": "95deg",
+   "rms_to_m0_deg": 96.6,
+   "conv": true,
+   "iters": 284,
+   "image_iterations": 4828,
+   "barrier_from_m0_kBT": 1051.97,
+   "E_end_rel_m0_kBT": 0.0,
+   "final_maxF": 1966.4,
+   "wall_s": 183.2,
+   "profile_rel_m0_kBT": [
+    0.0,
+    48.24,
+    196.09,
+    391.18,
+    559.94,
+    737.3,
+    880.45,
+    977.78,
+    1033.69,
+    1051.97,
+    1033.69,
+    977.78,
+    880.45,
+    737.3,
+    559.94,
+    391.18,
+    196.09,
+    48.24,
+    0.0
+   ]
+  }
+ },
+ "minimax_barrier_m0_to_minus_m0_kBT": 1051.97,
+ "minimax_path_nodes": [
+  0,
+  2,
+  1
+ ],
+ "total_image_iterations": 4828,
+ "timing": {
+  "orbit_s": 0.03,
+  "relax_s": 0.1,
+  "hops_s": 183.17,
+  "total_s": 183.3
+ }
+}

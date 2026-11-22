@@ -1,0 +1,33 @@
+{
+ "mode": "default",
+ "arg": "-",
+ "max_evals": 1000,
+ "end": "benchmarks/BM2_CO_symdecomp/rep1_relaxed.dat",
+ "wall_s": 277.4,
+ "barrier_kBT": 1317.39,
+ "saddle_image": 9,
+ "profile_kBT": [
+  0.3,
+  811.1,
+  1033.5,
+  1128.2,
+  1161.5,
+  1183.1,
+  1210.1,
+  1258.4,
+  1317.4,
+  1316.9,
+  1312.8,
+  1307.1,
+  1301.2,
+  1283.6,
+  1196.0,
+  989.4,
+  723.1,
+  465.7,
+  0.0
+ ],
+ "path_evals_by_stage": {
+  "neb": 590
+ }
+}

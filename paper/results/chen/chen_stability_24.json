@@ -1,0 +1,26 @@
+{
+ "uniform_x@0.005": {
+  "E": 472.08,
+  "rms_to_start_deg": 41.53
+ },
+ "uniform_x@0.02": {
+  "E": 472.08,
+  "rms_to_start_deg": 41.53
+ },
+ "tilted_x@0.005": {
+  "E": 916.52,
+  "rms_to_start_deg": 0.0
+ },
+ "tilted_x@0.02": {
+  "E": 916.52,
+  "rms_to_start_deg": 0.0
+ },
+ "perturbed_flower@0.005": {
+  "E": 472.08,
+  "rms_to_start_deg": 0.0
+ },
+ "perturbed_flower@0.02": {
+  "E": 472.08,
+  "rms_to_start_deg": 0.0
+ }
+}

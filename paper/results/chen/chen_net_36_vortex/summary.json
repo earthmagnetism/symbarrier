@@ -1,0 +1,66 @@
+{
+ "families": [
+  "vortex"
+ ],
+ "N": [
+  36,
+  30,
+  24
+ ],
+ "wall_s": 1123.0,
+ "n_classes": 3,
+ "minimax": 572.04,
+ "escape": {
+  "0": 572.04
+ },
+ "hops": {
+  "0-1": {
+   "saddle_E_kT": 572.04,
+   "barrier_from_a": 572.04,
+   "barrier_from_b": 572.04,
+   "max_neighbour_rms_deg": 11.3,
+   "reused": null,
+   "info": {
+    "converged": true,
+    "diverged": false,
+    "iters": 635,
+    "final_maxF_A_per_m": 474.3,
+    "climbing_image": true,
+    "time_s": 298.4,
+    "solver": "GNEB-FIRE"
+   }
+  },
+  "0-2": {
+   "saddle_E_kT": 3417.13,
+   "barrier_from_a": 3417.13,
+   "barrier_from_b": 3417.13,
+   "max_neighbour_rms_deg": 8.8,
+   "reused": null,
+   "info": {
+    "converged": true,
+    "diverged": false,
+    "iters": 357,
+    "final_maxF_A_per_m": 489.1,
+    "climbing_image": true,
+    "time_s": 162.9,
+    "solver": "GNEB-FIRE"
+   }
+  },
+  "0-3": {
+   "saddle_E_kT": 934.14,
+   "barrier_from_a": 934.14,
+   "barrier_from_b": 934.14,
+   "max_neighbour_rms_deg": 3.5,
+   "reused": null,
+   "info": {
+    "converged": true,
+    "diverged": false,
+    "iters": 1405,
+    "final_maxF_A_per_m": 497.9,
+    "climbing_image": true,
+    "time_s": 655.6,
+    "solver": "GNEB-FIRE"
+   }
+  }
+ }
+}

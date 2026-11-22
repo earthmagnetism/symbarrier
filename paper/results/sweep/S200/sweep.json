@@ -1,0 +1,147 @@
+{
+ "size_nm": 200.0,
+ "mesh": "to_200nm.pat",
+ "n_nodes": 8481,
+ "n_tets": 47400,
+ "gs_search_s": 314.0,
+ "gs_candidates": {
+  "vortex111": {
+   "E_rel_kBT": 1.71,
+   "mean_m": 0.082,
+   "mean_m_dir": [
+    0.577,
+    0.577,
+    0.578
+   ],
+   "helicity": 0.062
+  },
+  "vortex001": {
+   "E_rel_kBT": 1.71,
+   "mean_m": 0.082,
+   "mean_m_dir": [
+    0.577,
+    0.577,
+    0.578
+   ],
+   "helicity": 0.062
+  },
+  "vortex110": {
+   "E_rel_kBT": 1.71,
+   "mean_m": 0.082,
+   "mean_m_dir": [
+    0.577,
+    0.577,
+    0.577
+   ],
+   "helicity": 0.062
+  },
+  "uniform111": {
+   "E_rel_kBT": 1.71,
+   "mean_m": 0.082,
+   "mean_m_dir": [
+    0.576,
+    0.578,
+    0.578
+   ],
+   "helicity": 0.062
+  },
+  "uniform110": {
+   "E_rel_kBT": 0.0,
+   "mean_m": 0.082,
+   "mean_m_dir": [
+    -0.577,
+    -0.577,
+    0.578
+   ],
+   "helicity": -0.062
+  },
+  "uniform001": {
+   "E_rel_kBT": 0.96,
+   "mean_m": 0.082,
+   "mean_m_dir": [
+    0.578,
+    -0.577,
+    0.577
+   ],
+   "helicity": 0.062
+  },
+  "random0": {
+   "E_rel_kBT": 1.71,
+   "mean_m": 0.082,
+   "mean_m_dir": [
+    0.578,
+    0.577,
+    0.578
+   ],
+   "helicity": 0.062
+  }
+ },
+ "m0_from": "uniform110",
+ "m0": {
+  "E_rel_kBT": 0.0,
+  "mean_m": 0.082,
+  "mean_m_dir": [
+   -0.577,
+   -0.577,
+   0.578
+  ],
+  "helicity": -0.062
+ },
+ "symdecomp": {
+  "subgroup": "proper",
+  "n_orbit_states": 8,
+  "minus_m0_match_rms_deg": 0.05,
+  "minimax_barrier_m0_to_minus_m0_kBT": 1461.28,
+  "lowest_escape_barrier_kBT": 1461.28,
+  "total_path_evals": 225,
+  "timing": {
+   "orbit_s": 3.54,
+   "relax_s": 10.37,
+   "hops_s": 667.14,
+   "total_s": 681.06
+  },
+  "n_classes": 2,
+  "hops": {
+   "1": {
+    "class": "class1_118deg",
+    "barrier_kBT": 3708.9,
+    "evals": 107,
+    "wall_s": 358.05
+   },
+   "4": {
+    "class": "class4_77deg",
+    "barrier_kBT": 1461.28,
+    "evals": 118,
+    "wall_s": 309.09
+   }
+  },
+  "wall_s": 681.3
+ },
+ "default": {
+  "barrier_kBT": 3662.99,
+  "evals": 106,
+  "wall_s": 418.4,
+  "stop": "failed",
+  "profile_kBT": [
+   0.0,
+   304.4,
+   1026.1,
+   1462.7,
+   966.9,
+   253.2,
+   1370.7,
+   3372.8,
+   3663.0,
+   2559.4,
+   1556.9,
+   565.6,
+   43.0,
+   174.1,
+   856.8,
+   1503.7,
+   1502.5,
+   880.5,
+   0.0
+  ]
+ }
+}

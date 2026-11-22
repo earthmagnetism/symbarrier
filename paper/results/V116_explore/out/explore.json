@@ -1,0 +1,43 @@
+[
+ {
+  "round": 1,
+  "n_families": 3,
+  "n_nodes": 6,
+  "n_classes": 7,
+  "n_new_paths": 7,
+  "n_split_candidates": 5,
+  "n_new_families": 1,
+  "minimax_kT": 250.33,
+  "escape_kT": {
+   "0": 134.95,
+   "1": 112.29,
+   "2": 142.87
+  },
+  "timing": {
+   "bookkeeping_s": 1.89,
+   "relax_s": 21.0,
+   "paths_s": 3345.7
+  }
+ },
+ {
+  "round": 2,
+  "n_families": 4,
+  "n_nodes": 8,
+  "n_classes": 13,
+  "n_new_paths": 6,
+  "n_split_candidates": 4,
+  "n_new_families": 0,
+  "minimax_kT": 250.33,
+  "escape_kT": {
+   "0": 134.95,
+   "1": 112.29,
+   "2": 142.87,
+   "3": 105.68
+  },
+  "timing": {
+   "bookkeeping_s": 2.06,
+   "relax_s": 39.2,
+   "paths_s": 2925.6
+  }
+ }
+]

@@ -1,0 +1,53 @@
+{
+ "mesh": "V120_mesh.pat",
+ "n_nodes": 4467,
+ "n_tets": 23467,
+ "esvd_nm": 98.9,
+ "lem_search_s": 2683.7,
+ "distinct_LEMs_mod_T": [
+  {
+   "tag": "random28",
+   "E_kBT": 0.0,
+   "count": 37,
+   "mean_m": 0.995,
+   "mean_m_dir": [
+    0.429,
+    0.529,
+    0.732
+   ]
+  },
+  {
+   "tag": "random32",
+   "E_kBT": 631.95,
+   "count": 13,
+   "mean_m": 0.176,
+   "mean_m_dir": [
+    -0.845,
+    -0.336,
+    0.415
+   ]
+  },
+  {
+   "tag": "random36",
+   "E_kBT": 671.13,
+   "count": 6,
+   "mean_m": 0.207,
+   "mean_m_dir": [
+    -0.772,
+    -0.318,
+    0.551
+   ]
+  },
+  {
+   "tag": "random37",
+   "E_kBT": 1328.33,
+   "count": 1,
+   "mean_m": 0.037,
+   "mean_m_dir": [
+    -0.315,
+    -0.396,
+    0.863
+   ]
+  }
+ ]
+}

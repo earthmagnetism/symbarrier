@@ -1,0 +1,167 @@
+{
+ "backend": "magnum.np",
+ "n_point_group": 8,
+ "n_group_with_T": 16,
+ "n_nodes": 4,
+ "nodes_per_family": {
+  "0": 4
+ },
+ "family_energy_kT": {
+  "0": 0.0
+ },
+ "n_short_edges": 6,
+ "edges": [
+  [
+   0,
+   1
+  ],
+  [
+   0,
+   2
+  ],
+  [
+   0,
+   3
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   1,
+   3
+  ],
+  [
+   2,
+   3
+  ]
+ ],
+ "n_classes": 3,
+ "n_new_paths": 3,
+ "missing_classes": [],
+ "n_network_edges": 6,
+ "minimax_m0_to_minus_m0_kT": 576.71,
+ "escape_barrier_by_family_kT": {
+  "0": 576.71
+ },
+ "hops": {
+  "0-1": {
+   "saddle_E_kT": 576.71,
+   "max_neighbour_rms_deg": 11.3,
+   "barrier_from_a": 576.71,
+   "barrier_from_b": 576.71,
+   "profile_kT": [
+    0.0,
+    23.7,
+    104.5,
+    241.69,
+    405.82,
+    536.56,
+    576.7,
+    553.16,
+    499.25,
+    472.18,
+    499.9,
+    553.68,
+    576.71,
+    535.71,
+    404.46,
+    240.57,
+    103.92,
+    23.56,
+    0.0
+   ],
+   "interior_minima": [
+    9
+   ],
+   "info": {
+    "converged": true,
+    "diverged": false,
+    "iters": 589,
+    "final_maxF_A_per_m": 493.6,
+    "climbing_image": true,
+    "time_s": 118.9,
+    "solver": "GNEB-FIRE"
+   }
+  },
+  "0-2": {
+   "saddle_E_kT": 3423.58,
+   "max_neighbour_rms_deg": 9.0,
+   "barrier_from_a": 3423.58,
+   "barrier_from_b": 3423.58,
+   "profile_kT": [
+    0.0,
+    65.63,
+    285.68,
+    676.03,
+    1208.45,
+    1821.11,
+    2431.67,
+    2951.38,
+    3300.54,
+    3423.58,
+    3300.54,
+    2951.38,
+    2431.67,
+    1821.11,
+    1208.45,
+    676.03,
+    285.68,
+    65.63,
+    0.0
+   ],
+   "interior_minima": [],
+   "info": {
+    "converged": true,
+    "diverged": false,
+    "iters": 324,
+    "final_maxF_A_per_m": 492.3,
+    "climbing_image": true,
+    "time_s": 63.0,
+    "solver": "GNEB-FIRE"
+   }
+  },
+  "0-3": {
+   "saddle_E_kT": 870.27,
+   "max_neighbour_rms_deg": 3.4,
+   "barrier_from_a": 870.27,
+   "barrier_from_b": 870.27,
+   "profile_kT": [
+    0.0,
+    20.49,
+    113.48,
+    365.2,
+    594.82,
+    706.38,
+    781.02,
+    831.27,
+    860.61,
+    870.27,
+    860.61,
+    831.27,
+    781.02,
+    706.38,
+    594.82,
+    365.2,
+    113.48,
+    20.49,
+    0.0
+   ],
+   "interior_minima": [],
+   "info": {
+    "converged": true,
+    "diverged": false,
+    "iters": 1205,
+    "final_maxF_A_per_m": 477.1,
+    "climbing_image": true,
+    "time_s": 241.1,
+    "solver": "GNEB-FIRE"
+   }
+  }
+ },
+ "timing": {
+  "bookkeeping_s": 3.27,
+  "relax_s": 0.0,
+  "paths_s": 423.0
+ }
+}

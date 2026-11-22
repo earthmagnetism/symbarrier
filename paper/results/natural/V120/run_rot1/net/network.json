@@ -1,0 +1,92 @@
+{
+ "n_shape_group": 1,
+ "n_group_with_T": 2,
+ "n_families": 2,
+ "n_nodes": 4,
+ "family_energy_kBT": {
+  "0": 0.0,
+  "1": 475.15
+ },
+ "nodes_per_family": {
+  "0": 2,
+  "1": 2
+ },
+ "K": 4,
+ "K_CROSS": 2,
+ "n_short_edges": 6,
+ "n_edge_classes": 4,
+ "n_edges_in_network": 6,
+ "endpoint_relax_shift_deg_max": 0.07,
+ "minus_m0_node": 1,
+ "minus_m0_match_deg": 0.0,
+ "minimax_m0_to_minus_m0_kBT": 665.21,
+ "hops": {
+  "0-1": {
+   "saddle_E_kBT": 669.45,
+   "barrier_from_a": 669.45,
+   "barrier_from_b": 669.45,
+   "stop": "failed",
+   "evals": 118,
+   "wall_s": 305.9,
+   "interior_minima_images": [
+    11
+   ]
+  },
+  "0-2": {
+   "saddle_E_kBT": 665.21,
+   "barrier_from_a": 665.21,
+   "barrier_from_b": 190.06,
+   "stop": "failed",
+   "evals": 117,
+   "wall_s": 305.6,
+   "interior_minima_images": []
+  },
+  "0-3": {
+   "saddle_E_kBT": 615.7,
+   "barrier_from_a": 615.7,
+   "barrier_from_b": 140.55,
+   "stop": "stagnation",
+   "evals": 131,
+   "wall_s": 262.7,
+   "interior_minima_images": []
+  },
+  "2-3": {
+   "saddle_E_kBT": 665.99,
+   "barrier_from_a": 190.84,
+   "barrier_from_b": 190.84,
+   "stop": "failed",
+   "evals": 111,
+   "wall_s": 262.7,
+   "interior_minima_images": [
+    10
+   ]
+  }
+ },
+ "split_states": [
+  {
+   "hop": "0-1",
+   "image": 11,
+   "rms_to_nearest_node_deg": 0.1,
+   "new": false,
+   "file": "split_0_1_11_r.dat"
+  },
+  {
+   "hop": "2-3",
+   "image": 10,
+   "rms_to_nearest_node_deg": 0.1,
+   "new": false,
+   "file": "split_2_3_10_r.dat"
+  }
+ ],
+ "escape_barrier_by_family_kBT": {
+  "0": 615.7,
+  "1": 140.55
+ },
+ "timing": {
+  "orbits_s": 3.1,
+  "relax_s": 19.4,
+  "hops_s": 1136.9,
+  "total_s": 1209.3
+ },
+ "total_path_evals": 477
+}

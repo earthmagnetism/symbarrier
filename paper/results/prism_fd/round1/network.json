@@ -1,0 +1,178 @@
+{
+ "backend": "magnum.np",
+ "n_point_group": 16,
+ "n_group_with_T": 32,
+ "n_nodes": 8,
+ "nodes_per_family": {
+  "0": 8
+ },
+ "family_energy_kT": {
+  "0": 0.0
+ },
+ "n_short_edges": 17,
+ "n_classes": 4,
+ "n_new_paths": 4,
+ "n_network_edges": 24,
+ "minimax_m0_to_minus_m0_kT": 1064.37,
+ "escape_barrier_by_family_kT": {
+  "0": 1064.37
+ },
+ "hops": {
+  "0-1": {
+   "saddle_E_kT": 13572.73,
+   "barrier_from_a": 13572.73,
+   "barrier_from_b": 13572.73,
+   "profile_kT": [
+    0.0,
+    3238.15,
+    5963.89,
+    3170.82,
+    648.35,
+    1286.34,
+    2330.1,
+    8738.29,
+    13572.73,
+    356.71,
+    1233.68,
+    542.54,
+    66.15,
+    6902.21,
+    5919.84,
+    307.11,
+    3866.35,
+    4108.65,
+    0.0
+   ],
+   "interior_minima": [
+    4,
+    9,
+    12,
+    15
+   ],
+   "info": {
+    "converged": false,
+    "diverged": false,
+    "iters": 3000,
+    "final_maxF_A_per_m": 7397986.9,
+    "climbing_image": false,
+    "time_s": 1947.6,
+    "solver": "GNEB-FIRE"
+   }
+  },
+  "0-2": {
+   "saddle_E_kT": 2122.04,
+   "barrier_from_a": 2122.04,
+   "barrier_from_b": 2122.04,
+   "profile_kT": [
+    0.0,
+    74.44,
+    230.59,
+    351.39,
+    501.97,
+    1010.51,
+    1617.28,
+    1900.23,
+    2063.33,
+    2122.04,
+    2078.0,
+    1926.86,
+    1657.11,
+    1122.71,
+    520.77,
+    360.51,
+    246.04,
+    81.92,
+    0.0
+   ],
+   "interior_minima": [],
+   "info": {
+    "converged": false,
+    "diverged": false,
+    "iters": 3000,
+    "final_maxF_A_per_m": 2957.9,
+    "climbing_image": true,
+    "time_s": 1927.9,
+    "solver": "GNEB-FIRE"
+   }
+  },
+  "0-4": {
+   "saddle_E_kT": 3089.45,
+   "barrier_from_a": 3089.45,
+   "barrier_from_b": 3089.45,
+   "profile_kT": [
+    0.0,
+    440.07,
+    1056.03,
+    1667.83,
+    2182.55,
+    3089.45,
+    2799.31,
+    317.77,
+    12.96,
+    255.94,
+    579.69,
+    871.01,
+    1027.46,
+    1062.5,
+    986.36,
+    785.36,
+    480.53,
+    149.32,
+    -0.0
+   ],
+   "interior_minima": [
+    8
+   ],
+   "info": {
+    "converged": false,
+    "diverged": false,
+    "iters": 3000,
+    "final_maxF_A_per_m": 149496.6,
+    "climbing_image": true,
+    "time_s": 1888.1,
+    "solver": "GNEB-FIRE"
+   }
+  },
+  "0-6": {
+   "saddle_E_kT": 1064.37,
+   "barrier_from_a": 1064.37,
+   "barrier_from_b": 1064.37,
+   "profile_kT": [
+    0.0,
+    50.64,
+    205.67,
+    399.71,
+    573.35,
+    751.23,
+    893.77,
+    990.65,
+    1046.24,
+    1064.37,
+    1046.24,
+    990.65,
+    893.77,
+    751.23,
+    573.35,
+    399.71,
+    205.67,
+    50.64,
+    -0.0
+   ],
+   "interior_minima": [],
+   "info": {
+    "converged": true,
+    "diverged": false,
+    "iters": 718,
+    "final_maxF_A_per_m": 499.5,
+    "climbing_image": true,
+    "time_s": 417.9,
+    "solver": "GNEB-FIRE"
+   }
+  }
+ },
+ "timing": {
+  "bookkeeping_s": 8.93,
+  "relax_s": 0.0,
+  "paths_s": 6181.7
+ }
+}

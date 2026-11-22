@@ -1,0 +1,11 @@
+{
+ "n_inside": 14176,
+ "mean_m0": [
+  0.0834,
+  0.0834,
+  0.0834
+ ],
+ "E_I_minus_E_m0_kBT": -0.0,
+ "I_vs_gm0_rms_deg": 0.0,
+ "minus_m0_vs_C2_10m1_m0_rms_deg": 0.0
+}

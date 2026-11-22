@@ -1,0 +1,142 @@
+{
+ "mesh": "V092_mesh.pat",
+ "n_nodes": 4982,
+ "n_tets": 26579,
+ "esvd_nm": 136.0,
+ "lem_search_s": 725.9,
+ "distinct_LEMs_mod_T": [
+  {
+   "tag": "random0",
+   "E_kBT": 0.0,
+   "count": 7,
+   "mean_m": 0.149,
+   "mean_m_dir": [
+    0.635,
+    0.383,
+    -0.671
+   ]
+  },
+  {
+   "tag": "u0p0",
+   "E_kBT": 16.24,
+   "count": 8,
+   "mean_m": 0.151,
+   "mean_m_dir": [
+    0.546,
+    0.466,
+    -0.696
+   ]
+  }
+ ],
+ "network": {
+  "n_shape_group": 1,
+  "n_group_with_T": 2,
+  "n_families": 2,
+  "n_nodes": 4,
+  "family_energy_kBT": {
+   "0": 0.0,
+   "1": 16.24
+  },
+  "nodes_per_family": {
+   "0": 2,
+   "1": 2
+  },
+  "K": 4,
+  "K_CROSS": 2,
+  "n_short_edges": 6,
+  "n_edge_classes": 4,
+  "n_edges_in_network": 6,
+  "endpoint_relax_shift_deg_max": 0.0,
+  "minus_m0_node": 1,
+  "minus_m0_match_deg": 0.0,
+  "minimax_m0_to_minus_m0_kBT": 940.91,
+  "split_states": [
+   {
+    "hop": "0-2",
+    "image": 5,
+    "rms_to_nearest_node_deg": 0.1,
+    "new": false,
+    "file": "split_0_2_5_r.dat"
+   }
+  ],
+  "escape_barrier_by_family_kBT": {
+   "0": 940.91,
+   "1": 888.18
+  },
+  "timing": {
+   "orbits_s": 3.6,
+   "relax_s": 4.1,
+   "hops_s": 2322.2,
+   "total_s": 2352.5
+  },
+  "total_path_evals": 1329,
+  "hops": {
+   "0-1": {
+    "saddle_E_kBT": 940.91,
+    "barrier_from_a": 940.91,
+    "barrier_from_b": 940.91,
+    "stop": "failed",
+    "evals": 108,
+    "wall_s": 512.9,
+    "interior_minima_images": []
+   },
+   "0-2": {
+    "saddle_E_kBT": 2850.95,
+    "barrier_from_a": 2850.95,
+    "barrier_from_b": 2834.71,
+    "stop": "failed",
+    "evals": 109,
+    "wall_s": 537.0,
+    "interior_minima_images": [
+     5
+    ]
+   },
+   "0-3": {
+    "saddle_E_kBT": 2602.81,
+    "barrier_from_a": 2602.81,
+    "barrier_from_b": 2586.56,
+    "stop": "max_evals",
+    "evals": 1000,
+    "wall_s": 814.5,
+    "interior_minima_images": []
+   },
+   "2-3": {
+    "saddle_E_kBT": 904.42,
+    "barrier_from_a": 888.18,
+    "barrier_from_b": 888.18,
+    "stop": "failed",
+    "evals": 112,
+    "wall_s": 457.9,
+    "interior_minima_images": []
+   }
+  },
+  "wall_s": 2352.8
+ },
+ "single_band_default": {
+  "barrier_kBT": 977.31,
+  "wall_s": 455.7,
+  "evals": 113,
+  "stop": "failed",
+  "profile_kBT": [
+   0.0,
+   45.6,
+   161.0,
+   315.3,
+   481.3,
+   650.1,
+   801.3,
+   879.7,
+   977.3,
+   967.0,
+   868.5,
+   807.6,
+   756.0,
+   695.6,
+   588.0,
+   422.0,
+   327.9,
+   184.6,
+   0.0
+  ]
+ }
+}

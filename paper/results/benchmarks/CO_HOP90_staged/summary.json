@@ -1,0 +1,35 @@
+{
+ "mode": "staged",
+ "arg": "-",
+ "max_evals": 1000,
+ "end": "benchmarks/CO_lems/img08_relaxed.dat",
+ "wall_s": 110.8,
+ "barrier_kBT": 259.66,
+ "saddle_image": 7,
+ "profile_kBT": [
+  0.0,
+  246.2,
+  246.3,
+  246.4,
+  245.6,
+  245.0,
+  259.7,
+  244.3,
+  243.2,
+  243.5,
+  243.7,
+  242.6,
+  244.3,
+  243.8,
+  243.6,
+  243.6,
+  242.9,
+  241.7,
+  3.9
+ ],
+ "path_evals_by_stage": {
+  "neb": 293,
+  "neb5": 119,
+  "neb9": 119
+ }
+}

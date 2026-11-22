@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+paper/figures/
+paper/data/
+paper/Supplementary.md
+.DS_Store

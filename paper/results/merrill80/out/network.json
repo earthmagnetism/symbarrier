@@ -1,0 +1,125 @@
+{
+ "backend": "MERRILL",
+ "n_point_group": 48,
+ "n_group_with_T": 96,
+ "n_nodes": 12,
+ "nodes_per_family": {
+  "0": 12
+ },
+ "family_energy_kT": {
+  "0": 0.0
+ },
+ "n_short_edges": 27,
+ "n_classes": 3,
+ "n_new_paths": 3,
+ "n_network_edges": 36,
+ "minimax_m0_to_minus_m0_kT": 42.07,
+ "escape_barrier_by_family_kT": {
+  "0": 42.07
+ },
+ "hops": {
+  "0-1": {
+   "saddle_E_kT": 42.07,
+   "barrier_from_a": 42.07,
+   "barrier_from_b": 42.07,
+   "profile_kT": [
+    0.0,
+    4.04,
+    15.28,
+    30.27,
+    41.61,
+    42.07,
+    31.48,
+    16.9,
+    5.76,
+    1.62,
+    5.24,
+    15.87,
+    30.16,
+    40.84,
+    40.89,
+    32.15,
+    20.13,
+    6.87,
+    -0.0
+   ],
+   "interior_minima": [
+    9
+   ],
+   "info": {
+    "stop": "failed",
+    "evals": 113,
+    "solver": "MERRILL PathMinimize"
+   }
+  },
+  "0-2": {
+   "saddle_E_kT": 142.46,
+   "barrier_from_a": 142.46,
+   "barrier_from_b": 142.46,
+   "profile_kT": [
+    0.0,
+    3.55,
+    13.48,
+    27.15,
+    38.66,
+    47.11,
+    57.31,
+    64.3,
+    66.72,
+    64.3,
+    60.13,
+    60.95,
+    84.18,
+    119.99,
+    142.46,
+    135.63,
+    101.63,
+    45.33,
+    0.25
+   ],
+   "interior_minima": [],
+   "info": {
+    "stop": "failed",
+    "evals": 128,
+    "solver": "MERRILL PathMinimize"
+   }
+  },
+  "0-6": {
+   "saddle_E_kT": 42.35,
+   "barrier_from_a": 42.35,
+   "barrier_from_b": 42.35,
+   "profile_kT": [
+    0.0,
+    1.01,
+    3.96,
+    8.72,
+    15.0,
+    22.26,
+    29.69,
+    36.19,
+    40.68,
+    42.35,
+    40.89,
+    36.58,
+    30.21,
+    22.87,
+    15.63,
+    9.35,
+    4.55,
+    1.53,
+    0.45
+   ],
+   "interior_minima": [],
+   "info": {
+    "stop": "failed",
+    "evals": 111,
+    "solver": "MERRILL PathMinimize"
+   }
+  }
+ },
+ "timing": {
+  "bookkeeping_s": 1.33,
+  "relax_s": 0.5,
+  "paths_s": 44.1
+ }
+}

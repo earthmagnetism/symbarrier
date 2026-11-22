@@ -1,0 +1,169 @@
+{
+ "subgroup": "full",
+ "n_shape_group": 16,
+ "n_group_with_T": 32,
+ "n_orbit_states": 8,
+ "m0_node": 0,
+ "minus_m0_node": 1,
+ "minus_m0_match_rms_deg": 0.0,
+ "classes": {
+  "class2": {
+   "rep": 2,
+   "members": [
+    2
+   ],
+   "rms_to_m0_deg": 54.5,
+   "stabiliser_size": 4
+  },
+  "class3": {
+   "rep": 3,
+   "members": [
+    3
+   ],
+   "rms_to_m0_deg": 136.6,
+   "stabiliser_size": 4
+  },
+  "class4": {
+   "rep": 4,
+   "members": [
+    4,
+    5
+   ],
+   "rms_to_m0_deg": 103.6,
+   "stabiliser_size": 4
+  },
+  "class6": {
+   "rep": 6,
+   "members": [
+    6,
+    7
+   ],
+   "rms_to_m0_deg": 96.6,
+   "stabiliser_size": 4
+  }
+ },
+ "hops": {
+  "2": {
+   "class": "class2_55deg",
+   "barrier_kBT": 3974.44,
+   "evals": 107,
+   "wall_s": 334.98,
+   "profile_kBT": [
+    1.2,
+    4.6,
+    22.2,
+    56.3,
+    1143.4,
+    2925.6,
+    3974.4,
+    3745.3,
+    2912.4,
+    2245.1,
+    1741.0,
+    1381.3,
+    1131.4,
+    892.9,
+    579.1,
+    518.5,
+    359.4,
+    101.0,
+    0.0
+   ]
+  },
+  "3": {
+   "class": "class3_137deg",
+   "barrier_kBT": 3876.45,
+   "evals": 134,
+   "wall_s": 523.49,
+   "profile_kBT": [
+    1.2,
+    3876.4,
+    2337.4,
+    1106.9,
+    227.8,
+    440.6,
+    599.8,
+    705.8,
+    811.8,
+    778.7,
+    704.4,
+    787.8,
+    991.7,
+    849.5,
+    1075.8,
+    1462.8,
+    880.5,
+    289.9,
+    0.0
+   ]
+  },
+  "4": {
+   "class": "class4_104deg",
+   "barrier_kBT": 3494.93,
+   "evals": 106,
+   "wall_s": 420.08,
+   "profile_kBT": [
+    0.0,
+    41.6,
+    3494.9,
+    3189.3,
+    1855.7,
+    1095.7,
+    449.3,
+    102.7,
+    199.6,
+    516.8,
+    749.2,
+    839.8,
+    1070.4,
+    993.4,
+    756.2,
+    526.0,
+    314.8,
+    176.0,
+    0.6
+   ]
+  },
+  "6": {
+   "class": "class6_97deg",
+   "barrier_kBT": 1248.97,
+   "evals": 107,
+   "wall_s": 450.53,
+   "profile_kBT": [
+    0.9,
+    31.3,
+    116.7,
+    121.6,
+    137.8,
+    289.5,
+    487.6,
+    656.4,
+    1120.7,
+    1249.0,
+    975.8,
+    881.3,
+    908.2,
+    790.6,
+    631.4,
+    361.3,
+    207.3,
+    111.5,
+    0.0
+   ]
+  }
+ },
+ "minimax_barrier_m0_to_minus_m0_kBT": 1248.97,
+ "minimax_path_nodes": [
+  0,
+  6,
+  1
+ ],
+ "lowest_escape_barrier_kBT": 1248.97,
+ "timing": {
+  "orbit_s": 4.1,
+  "relax_s": 53.74,
+  "hops_s": 1729.08,
+  "total_s": 1786.95
+ },
+ "total_path_evals": 454
+}

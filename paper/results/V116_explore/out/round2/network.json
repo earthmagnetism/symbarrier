@@ -1,0 +1,263 @@
+{
+ "backend": "MERRILL",
+ "n_point_group": 1,
+ "n_group_with_T": 2,
+ "n_nodes": 8,
+ "nodes_per_family": {
+  "0": 2,
+  "1": 2,
+  "2": 2,
+  "3": 2
+ },
+ "family_energy_kT": {
+  "0": 0.0,
+  "1": 22.66,
+  "2": 101.23,
+  "3": 99.5
+ },
+ "n_short_edges": 25,
+ "n_classes": 13,
+ "n_new_paths": 6,
+ "n_network_edges": 25,
+ "minimax_m0_to_minus_m0_kT": 250.33,
+ "escape_barrier_by_family_kT": {
+  "0": 134.95,
+  "1": 112.29,
+  "2": 142.87,
+  "3": 105.68
+ },
+ "hops": {
+  "0-1": {
+   "reused": true,
+   "saddle_E_kT": 250.33
+  },
+  "0-2": {
+   "reused": true,
+   "saddle_E_kT": 732.55
+  },
+  "0-3": {
+   "reused": true,
+   "saddle_E_kT": 134.95
+  },
+  "0-4": {
+   "reused": true,
+   "saddle_E_kT": 244.1
+  },
+  "0-5": {
+   "reused": true,
+   "saddle_E_kT": 255.58
+  },
+  "0-6": {
+   "saddle_E_kT": 652.65,
+   "barrier_from_a": 652.65,
+   "barrier_from_b": 553.15,
+   "profile_kT": [
+    0.0,
+    11.57,
+    47.57,
+    99.59,
+    132.69,
+    131.67,
+    115.64,
+    66.23,
+    24.55,
+    184.2,
+    409.67,
+    595.59,
+    652.65,
+    567.56,
+    402.82,
+    267.85,
+    192.27,
+    128.16,
+    99.44
+   ],
+   "interior_minima": [
+    8
+   ],
+   "info": {
+    "stop": "stagnation",
+    "evals": 131,
+    "solver": "MERRILL PathMinimize"
+   }
+  },
+  "0-7": {
+   "saddle_E_kT": 394.81,
+   "barrier_from_a": 394.81,
+   "barrier_from_b": 295.32,
+   "profile_kT": [
+    0.0,
+    22.97,
+    53.27,
+    96.13,
+    129.42,
+    135.55,
+    130.57,
+    103.28,
+    55.78,
+    27.06,
+    87.72,
+    208.16,
+    329.18,
+    394.81,
+    373.21,
+    282.37,
+    183.28,
+    124.79,
+    99.43
+   ],
+   "interior_minima": [
+    9
+   ],
+   "info": {
+    "stop": "stagnation",
+    "evals": 131,
+    "solver": "MERRILL PathMinimize"
+   }
+  },
+  "2-4": {
+   "reused": true,
+   "saddle_E_kT": 571.87
+  },
+  "2-5": {
+   "reused": true,
+   "saddle_E_kT": 288.04
+  },
+  "2-6": {
+   "saddle_E_kT": 205.17,
+   "barrier_from_a": 182.51,
+   "barrier_from_b": 105.68,
+   "profile_kT": [
+    22.66,
+    28.07,
+    44.02,
+    69.1,
+    100.51,
+    133.45,
+    162.21,
+    184.99,
+    199.96,
+    205.17,
+    200.87,
+    189.23,
+    173.15,
+    155.21,
+    137.57,
+    121.93,
+    109.69,
+    101.93,
+    99.44
+   ],
+   "interior_minima": [],
+   "info": {
+    "stop": "failed",
+    "evals": 111,
+    "solver": "MERRILL PathMinimize"
+   }
+  },
+  "2-7": {
+   "saddle_E_kT": 296.75,
+   "barrier_from_a": 274.09,
+   "barrier_from_b": 197.25,
+   "profile_kT": [
+    22.66,
+    35.5,
+    66.2,
+    97.43,
+    118.84,
+    132.63,
+    175.03,
+    213.36,
+    243.63,
+    270.79,
+    290.97,
+    296.75,
+    281.39,
+    246.48,
+    203.64,
+    162.46,
+    129.08,
+    107.32,
+    99.43
+   ],
+   "interior_minima": [],
+   "info": {
+    "stop": "failed",
+    "evals": 114,
+    "solver": "MERRILL PathMinimize"
+   }
+  },
+  "4-6": {
+   "saddle_E_kT": 2218.27,
+   "barrier_from_a": 2117.04,
+   "barrier_from_b": 2118.77,
+   "profile_kT": [
+    101.23,
+    199.91,
+    461.01,
+    856.67,
+    1347.05,
+    1825.87,
+    2150.84,
+    2218.27,
+    2077.82,
+    1829.89,
+    1534.22,
+    1232.92,
+    951.42,
+    702.93,
+    493.78,
+    326.72,
+    204.06,
+    126.79,
+    99.44
+   ],
+   "interior_minima": [],
+   "info": {
+    "stop": "stagnation",
+    "evals": 393,
+    "solver": "MERRILL PathMinimize"
+   }
+  },
+  "4-7": {
+   "saddle_E_kT": 2112.2,
+   "barrier_from_a": 2010.97,
+   "barrier_from_b": 2012.71,
+   "profile_kT": [
+    101.23,
+    124.02,
+    2112.2,
+    1333.16,
+    277.42,
+    124.74,
+    188.37,
+    260.49,
+    297.56,
+    257.26,
+    158.58,
+    77.2,
+    25.48,
+    64.16,
+    162.14,
+    210.47,
+    203.27,
+    159.45,
+    99.43
+   ],
+   "interior_minima": [
+    5,
+    12
+   ],
+   "info": {
+    "stop": "failed",
+    "evals": 106,
+    "solver": "MERRILL PathMinimize"
+   }
+  }
+ },
+ "timing": {
+  "bookkeeping_s": 2.06,
+  "relax_s": 39.2,
+  "paths_s": 2925.6
+ }
+}

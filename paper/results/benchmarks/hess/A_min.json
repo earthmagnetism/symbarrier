@@ -1,0 +1,15 @@
+{
+ "label": "A_minimum",
+ "system": "cube",
+ "image": 0,
+ "E_rel_first_kBT": -0.0,
+ "lowest_eigenvalues_kBT_per_rad2": [
+  0.2456,
+  0.2497,
+  0.9051
+ ],
+ "n_negative": 0,
+ "n_matvec": 618,
+ "dim": 54000,
+ "max_tangent_force_kBT_per_rad": 1.726131858882699e-05
+}

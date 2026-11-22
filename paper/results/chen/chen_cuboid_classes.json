@@ -1,0 +1,126 @@
+{
+ "G_order": 8,
+ "G_x_T": 16,
+ "nodes": [
+  "SD+1",
+  "SD-1",
+  "SV(core+1,circ+1,hand+1)",
+  "SV(core-1,circ-1,hand+1)",
+  "SV(core+1,circ-1,hand-1)",
+  "SV(core-1,circ+1,hand-1)"
+ ],
+ "n_pairs": 15,
+ "n_classes": 5,
+ "classes": [
+  {
+   "rep": [
+    "SD+1",
+    "SD-1"
+   ],
+   "kind": "SD<->SD reversal",
+   "orbit_size": 1,
+   "pairs": [
+    [
+     "SD+1",
+     "SD-1"
+    ]
+   ]
+  },
+  {
+   "rep": [
+    "SD+1",
+    "SV(core+1,circ+1,hand+1)"
+   ],
+   "kind": "SD<->SV",
+   "orbit_size": 8,
+   "pairs": [
+    [
+     "SD+1",
+     "SV(core+1,circ+1,hand+1)"
+    ],
+    [
+     "SD+1",
+     "SV(core-1,circ-1,hand+1)"
+    ],
+    [
+     "SD+1",
+     "SV(core+1,circ-1,hand-1)"
+    ],
+    [
+     "SD+1",
+     "SV(core-1,circ+1,hand-1)"
+    ],
+    [
+     "SD-1",
+     "SV(core+1,circ+1,hand+1)"
+    ],
+    [
+     "SD-1",
+     "SV(core-1,circ-1,hand+1)"
+    ],
+    [
+     "SD-1",
+     "SV(core+1,circ-1,hand-1)"
+    ],
+    [
+     "SD-1",
+     "SV(core-1,circ+1,hand-1)"
+    ]
+   ]
+  },
+  {
+   "rep": [
+    "SV(core+1,circ+1,hand+1)",
+    "SV(core-1,circ-1,hand+1)"
+   ],
+   "kind": "SV<->SV flips core+circulation",
+   "orbit_size": 2,
+   "pairs": [
+    [
+     "SV(core+1,circ+1,hand+1)",
+     "SV(core-1,circ-1,hand+1)"
+    ],
+    [
+     "SV(core+1,circ-1,hand-1)",
+     "SV(core-1,circ+1,hand-1)"
+    ]
+   ]
+  },
+  {
+   "rep": [
+    "SV(core+1,circ+1,hand+1)",
+    "SV(core+1,circ-1,hand-1)"
+   ],
+   "kind": "SV<->SV flips circulation+handedness",
+   "orbit_size": 2,
+   "pairs": [
+    [
+     "SV(core+1,circ+1,hand+1)",
+     "SV(core+1,circ-1,hand-1)"
+    ],
+    [
+     "SV(core-1,circ-1,hand+1)",
+     "SV(core-1,circ+1,hand-1)"
+    ]
+   ]
+  },
+  {
+   "rep": [
+    "SV(core+1,circ+1,hand+1)",
+    "SV(core-1,circ+1,hand-1)"
+   ],
+   "kind": "SV<->SV flips core+handedness",
+   "orbit_size": 2,
+   "pairs": [
+    [
+     "SV(core+1,circ+1,hand+1)",
+     "SV(core-1,circ+1,hand-1)"
+    ],
+    [
+     "SV(core-1,circ-1,hand+1)",
+     "SV(core+1,circ-1,hand-1)"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "label": "AAp",
+ "system": "cube",
+ "image": 6,
+ "E_rel_first_kBT": 436.0,
+ "lowest_eigenvalues_kBT_per_rad2": [
+  -0.3803,
+  -0.07277,
+  0.208
+ ],
+ "n_negative": 2,
+ "n_matvec": 390,
+ "dim": 54000,
+ "max_tangent_force_kBT_per_rad": 0.005773294689237716,
+ "overlap_lowest_mode_with_band_tangent": 1.0
+}

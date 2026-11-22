@@ -1,0 +1,88 @@
+{
+ "fd333_K2_tol500": {
+  "constants": "MERRILL 20C",
+  "cell_nm": 3.3333333333,
+  "with_K2": true,
+  "tol_A_per_m": 500.0,
+  "conv": true,
+  "iters": 717,
+  "final_maxF": 498.5,
+  "barrier_kBT": 1059.8
+ },
+ "fd4_K2_tol500": {
+  "constants": "MERRILL 20C",
+  "cell_nm": 4.0,
+  "with_K2": true,
+  "tol_A_per_m": 500.0,
+  "conv": true,
+  "iters": 717,
+  "final_maxF": 497.8,
+  "barrier_kBT": 1061.4
+ },
+ "fd5_K2_band": {
+  "constants": "MERRILL 20C",
+  "cell_nm": 5.0,
+  "with_K2": true,
+  "tol_A_per_m": 500.0,
+  "conv": true,
+  "iters": 718,
+  "final_maxF": 499.5,
+  "barrier_kBT": 1064.37
+ },
+ "fd5_K2_tol500": {
+  "constants": "MERRILL 20C",
+  "cell_nm": 5.0,
+  "with_K2": true,
+  "tol_A_per_m": 500.0,
+  "conv": true,
+  "iters": 718,
+  "final_maxF": 499.5,
+  "barrier_kBT": 1064.37
+ },
+ "fd5_noK2_tol500": {
+  "constants": "MERRILL 20C",
+  "cell_nm": 5.0,
+  "with_K2": false,
+  "tol_A_per_m": 500.0,
+  "conv": true,
+  "iters": 725,
+  "final_maxF": 497.6,
+  "barrier_kBT": 1073.06
+ },
+ "fd5_orig_tol500": {
+  "constants": "FD original",
+  "cell_nm": 5.0,
+  "with_K2": false,
+  "tol_A_per_m": 500.0,
+  "conv": true,
+  "iters": 726,
+  "final_maxF": 494.8,
+  "barrier_kBT": 1051.91
+ },
+ "mer10_noK2": {
+  "n_nodes": 6429,
+  "extra": "Set: K2 = 0",
+  "hops": {
+   "6": {
+    "class": "class6_97deg",
+    "barrier_kBT": 962.05,
+    "evals": 105,
+    "wall_s": 1566.48
+   }
+  }
+ },
+ "mer667_K2": {
+  "n_nodes": 20911,
+  "extra": "",
+  "hops": {
+   "6": {
+    "class": "class6_97deg",
+    "barrier_kBT": 981.06,
+    "evals": 109,
+    "wall_s": 4566.79
+   }
+  }
+ },
+ "xmap_h10_mapped_max_kBT": 1029.21,
+ "merrill_h10_K2_default_hop_kBT": 1248.97
+}

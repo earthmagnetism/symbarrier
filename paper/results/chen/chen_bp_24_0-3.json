@@ -1,0 +1,42 @@
+{
+ "nx": 24,
+ "pair": [
+  0,
+  3
+ ],
+ "rms_deg": 43.0,
+ "saddle_kT": 870.27,
+ "i_max": 9,
+ "max_neighbour_angle_at_saddle_deg": 78.4,
+ "max_neighbour_angle_ends_deg": 19.8,
+ "max_abs_cube_charge_per_image": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "info": {
+  "converged": true,
+  "diverged": false,
+  "iters": 1205,
+  "final_maxF_A_per_m": 477.1,
+  "climbing_image": true,
+  "time_s": 247.9,
+  "solver": "GNEB-FIRE"
+ }
+}

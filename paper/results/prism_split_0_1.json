@@ -1,0 +1,85 @@
+{
+ "class": "0-1",
+ "barrier_kT": 13572.73,
+ "info": {
+  "converged": false,
+  "diverged": false,
+  "iters": 3000,
+  "final_maxF_A_per_m": 7397986.9,
+  "climbing_image": false,
+  "time_s": 1818.0,
+  "solver": "GNEB-FIRE"
+ },
+ "profile_kT": [
+  0.0,
+  3238.15,
+  5963.89,
+  3170.82,
+  648.35,
+  1286.34,
+  2330.1,
+  8738.29,
+  13572.73,
+  356.71,
+  1233.68,
+  542.54,
+  66.15,
+  6902.21,
+  5919.84,
+  307.11,
+  3866.35,
+  4108.65,
+  0.0
+ ],
+ "max_neighbour_rms_deg": 83.7,
+ "minima": [
+  {
+   "image": 4,
+   "band_E_kT": 648.35,
+   "relaxed_E_kT": 131.0,
+   "finite": true,
+   "rms_to_orbit_deg": 30.8,
+   "mean_m": [
+    -0.104,
+    -0.0,
+    0.08
+   ]
+  },
+  {
+   "image": 9,
+   "band_E_kT": 356.71,
+   "relaxed_E_kT": 97.19,
+   "finite": true,
+   "rms_to_orbit_deg": 19.7,
+   "mean_m": [
+    0.014,
+    -0.058,
+    -0.044
+   ]
+  },
+  {
+   "image": 12,
+   "band_E_kT": 66.15,
+   "relaxed_E_kT": 0.0,
+   "finite": true,
+   "rms_to_orbit_deg": 0.0,
+   "mean_m": [
+    -0.0,
+    -0.014,
+    -0.0
+   ]
+  },
+  {
+   "image": 15,
+   "band_E_kT": 307.11,
+   "relaxed_E_kT": -0.0,
+   "finite": true,
+   "rms_to_orbit_deg": 0.0,
+   "mean_m": [
+    -0.0,
+    0.014,
+    0.0
+   ]
+  }
+ ]
+}

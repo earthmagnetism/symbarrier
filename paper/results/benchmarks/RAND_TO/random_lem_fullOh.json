@@ -1,0 +1,26 @@
+{
+ "orbit_size_Oh": 16,
+ "orbit_size_proper": 8,
+ "n_distinct_LEMs": 14,
+ "all_in_orbit_5deg": true,
+ "max_rms_to_orbit_deg": 0.127,
+ "orbit_states_found": 14,
+ "orbit_states_missed": 2,
+ "found_only_via_improper": 6,
+ "rms_each_deg": [
+  0.079,
+  0.086,
+  0.085,
+  0.072,
+  0.127,
+  0.091,
+  0.087,
+  0.089,
+  0.083,
+  0.09,
+  0.088,
+  0.064,
+  0.082,
+  0.082
+ ]
+}

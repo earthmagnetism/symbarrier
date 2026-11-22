@@ -1,0 +1,253 @@
+{
+ "families": [
+  "vortex",
+  "perturbed_flower",
+  "tilted_x"
+ ],
+ "N": [
+  36,
+  30,
+  24
+ ],
+ "wall_s": 1536.1,
+ "n_nodes": 12,
+ "n_classes": 8,
+ "family_energy_kT": {
+  "0": 0.0,
+  "1": 467.94,
+  "2": 910.15
+ },
+ "node_family": [
+  0,
+  0,
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  2,
+  2,
+  2,
+  2
+ ],
+ "escape": {
+  "0": 572.02,
+  "1": 104.08,
+  "2": 0.0
+ },
+ "minimax": 572.02,
+ "bloch_charge_per_image": {
+  "0-4": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "0-8": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "4-7": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "4-8": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "8-11": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "hops": {
+  "0-1": {
+   "saddle_E_kT": 572.04,
+   "barrier_from_a": null,
+   "barrier_from_b": null,
+   "max_neighbour_rms_deg": null,
+   "reused": true,
+   "info": null
+  },
+  "0-2": {
+   "saddle_E_kT": 3417.13,
+   "barrier_from_a": null,
+   "barrier_from_b": null,
+   "max_neighbour_rms_deg": null,
+   "reused": true,
+   "info": null
+  },
+  "0-3": {
+   "saddle_E_kT": 934.14,
+   "barrier_from_a": null,
+   "barrier_from_b": null,
+   "max_neighbour_rms_deg": null,
+   "reused": true,
+   "info": null
+  },
+  "0-4": {
+   "saddle_E_kT": 572.02,
+   "barrier_from_a": 572.02,
+   "barrier_from_b": 104.08,
+   "max_neighbour_rms_deg": 5.8,
+   "reused": null,
+   "info": {
+    "converged": true,
+    "diverged": false,
+    "iters": 287,
+    "final_maxF_A_per_m": 486.5,
+    "climbing_image": true,
+    "time_s": 133.4,
+    "solver": "GNEB-FIRE"
+   }
+  },
+  "0-8": {
+   "saddle_E_kT": 910.15,
+   "barrier_from_a": 910.15,
+   "barrier_from_b": 0.0,
+   "max_neighbour_rms_deg": 8.6,
+   "reused": null,
+   "info": {
+    "converged": true,
+    "diverged": false,
+    "iters": 2719,
+    "final_maxF_A_per_m": 495.2,
+    "climbing_image": true,
+    "time_s": 1236.6,
+    "solver": "GNEB-FIRE"
+   }
+  },
+  "4-7": {
+   "saddle_E_kT": 980.0,
+   "barrier_from_a": 512.06,
+   "barrier_from_b": 512.06,
+   "max_neighbour_rms_deg": 4.6,
+   "reused": null,
+   "info": {
+    "converged": true,
+    "diverged": false,
+    "iters": 109,
+    "final_maxF_A_per_m": 494.4,
+    "climbing_image": true,
+    "time_s": 50.5,
+    "solver": "GNEB-FIRE"
+   }
+  },
+  "4-8": {
+   "saddle_E_kT": 910.44,
+   "barrier_from_a": 442.51,
+   "barrier_from_b": 0.29,
+   "max_neighbour_rms_deg": 2.6,
+   "reused": null,
+   "info": {
+    "converged": true,
+    "diverged": false,
+    "iters": 137,
+    "final_maxF_A_per_m": 499.8,
+    "climbing_image": true,
+    "time_s": 62.0,
+    "solver": "GNEB-FIRE"
+   }
+  },
+  "8-11": {
+   "saddle_E_kT": 980.0,
+   "barrier_from_a": 69.85,
+   "barrier_from_b": 69.85,
+   "max_neighbour_rms_deg": 2.2,
+   "reused": null,
+   "info": {
+    "converged": true,
+    "diverged": false,
+    "iters": 100,
+    "final_maxF_A_per_m": 439.5,
+    "climbing_image": true,
+    "time_s": 45.0,
+    "solver": "GNEB-FIRE"
+   }
+  }
+ }
+}

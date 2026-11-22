@@ -1,0 +1,263 @@
+{
+ "hops": {
+  "0-1": {
+   "reused": true,
+   "n_bounds": 2,
+   "saddle_E_kT": 747.19
+  },
+  "0-2": {
+   "reused": true,
+   "n_bounds": 2,
+   "saddle_E_kT": 370.0
+  },
+  "0-3": {
+   "reused": true,
+   "n_bounds": 2,
+   "saddle_E_kT": 1358.75
+  },
+  "0-4": {
+   "reused": true,
+   "n_bounds": 2,
+   "saddle_E_kT": 1173.65
+  },
+  "0-5": {
+   "reused": true,
+   "n_bounds": 2,
+   "saddle_E_kT": 1126.76
+  },
+  "0-6": {
+   "saddle_E_kT": 623.55,
+   "barrier_from_a": 623.55,
+   "barrier_from_b": 91.61,
+   "profile_kT": [
+    0.0,
+    21.62,
+    89.05,
+    189.23,
+    305.99,
+    414.26,
+    500.85,
+    570.41,
+    611.39,
+    623.55,
+    618.02,
+    605.1,
+    590.91,
+    577.21,
+    563.98,
+    551.88,
+    541.81,
+    534.47,
+    531.74
+   ],
+   "interior_minima": [],
+   "info": {
+    "stop": "failed",
+    "evals": 114,
+    "solver": "MERRILL PathMinimize"
+   }
+  },
+  "0-7": {
+   "saddle_E_kT": 743.0,
+   "barrier_from_a": 743.0,
+   "barrier_from_b": 211.05,
+   "profile_kT": [
+    0.0,
+    24.67,
+    94.4,
+    200.84,
+    327.16,
+    451.15,
+    559.27,
+    643.72,
+    703.1,
+    736.93,
+    743.0,
+    723.94,
+    688.24,
+    646.55,
+    606.9,
+    573.97,
+    550.33,
+    536.36,
+    531.7
+   ],
+   "interior_minima": [],
+   "info": {
+    "stop": "failed",
+    "evals": 111,
+    "solver": "MERRILL PathMinimize"
+   }
+  },
+  "2-4": {
+   "reused": true,
+   "n_bounds": 2,
+   "saddle_E_kT": 715.44
+  },
+  "2-5": {
+   "reused": true,
+   "n_bounds": 2,
+   "saddle_E_kT": 778.84
+  },
+  "2-6": {
+   "saddle_E_kT": 1094.87,
+   "barrier_from_a": 1075.14,
+   "barrier_from_b": 562.92,
+   "profile_kT": [
+    19.74,
+    334.44,
+    406.2,
+    437.99,
+    437.87,
+    409.31,
+    465.29,
+    597.6,
+    781.54,
+    942.35,
+    1044.59,
+    1091.86,
+    1094.87,
+    1091.01,
+    1043.76,
+    956.79,
+    840.24,
+    706.9,
+    531.74
+   ],
+   "interior_minima": [
+    5
+   ],
+   "info": {
+    "stop": "stagnation",
+    "evals": 337,
+    "solver": "MERRILL PathMinimize"
+   }
+  },
+  "2-7": {
+   "saddle_E_kT": 1300.63,
+   "barrier_from_a": 1280.9,
+   "barrier_from_b": 768.69,
+   "profile_kT": [
+    19.74,
+    160.3,
+    317.58,
+    407.17,
+    407.67,
+    394.58,
+    389.17,
+    488.94,
+    617.88,
+    780.02,
+    986.46,
+    1196.58,
+    1300.63,
+    1243.51,
+    1092.56,
+    926.22,
+    771.11,
+    621.74,
+    531.7
+   ],
+   "interior_minima": [
+    6
+   ],
+   "info": {
+    "stop": "stagnation",
+    "evals": 149,
+    "solver": "MERRILL PathMinimize"
+   }
+  },
+  "4-6": {
+   "saddle_E_kT": 2718.65,
+   "barrier_from_a": 2107.47,
+   "barrier_from_b": 2186.7,
+   "profile_kT": [
+    611.18,
+    640.2,
+    2718.65,
+    1531.62,
+    670.74,
+    570.55,
+    659.83,
+    730.82,
+    735.25,
+    604.77,
+    324.52,
+    44.39,
+    55.67,
+    391.12,
+    607.47,
+    639.68,
+    605.44,
+    629.19,
+    531.74
+   ],
+   "interior_minima": [
+    5,
+    11,
+    16
+   ],
+   "info": {
+    "stop": "failed",
+    "evals": 106,
+    "solver": "MERRILL PathMinimize"
+   }
+  },
+  "4-7": {
+   "saddle_E_kT": 2808.98,
+   "barrier_from_a": 2197.8,
+   "barrier_from_b": 2277.03,
+   "profile_kT": [
+    611.18,
+    613.9,
+    621.38,
+    632.39,
+    645.32,
+    1090.94,
+    1823.31,
+    2493.89,
+    2808.98,
+    2682.74,
+    2270.91,
+    1831.67,
+    1450.51,
+    1140.84,
+    902.05,
+    726.75,
+    609.11,
+    546.57,
+    531.7
+   ],
+   "interior_minima": [],
+   "info": {
+    "stop": "failed",
+    "evals": 110,
+    "solver": "MERRILL PathMinimize"
+   }
+  }
+ },
+ "history": [
+  {
+   "round": 1,
+   "n_families": 4,
+   "n_nodes": 8,
+   "n_classes": 13,
+   "n_new_paths": 6,
+   "n_split_candidates": 5,
+   "n_new_families": 0,
+   "minimax_kT": 743.0,
+   "escape_kT": {
+    "0": 370.0,
+    "1": 350.27,
+    "2": 104.26,
+    "3": 91.61
+   },
+   "timing": {
+    "bookkeeping_s": 2.64,
+    "relax_s": 38.1,
+    "paths_s": 2159.2
+   }
+  }
+ ],
+ "wall_s": 2384.7830963134766
+}

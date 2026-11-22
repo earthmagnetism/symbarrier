@@ -1,0 +1,184 @@
+[
+ {
+  "pair": [
+   0,
+   10
+  ],
+  "saddle_abs_kT": 13039.436474877872,
+  "profile_rel_m0_kT": [
+   0.0,
+   33.16,
+   119.93,
+   152.68,
+   428.5,
+   1134.67,
+   2187.97,
+   1479.69,
+   1408.84,
+   1413.99,
+   542.84,
+   253.4,
+   148.57,
+   154.26,
+   526.43,
+   196.1,
+   249.11,
+   98.97,
+   97.19
+  ],
+  "max_neighbour_rms_deg": 19.4,
+  "info": {
+   "converged": false,
+   "diverged": false,
+   "iters": 3000,
+   "final_maxF_A_per_m": 364141.3,
+   "climbing_image": false,
+   "time_s": 2141.8,
+   "solver": "GNEB-FIRE"
+  },
+  "minima": [
+   {
+    "image": 8,
+    "E_kT": 1396.84,
+    "rms_to_nodes_deg": 27.3
+   },
+   {
+    "image": 12,
+    "E_kT": 0.0,
+    "rms_to_nodes_deg": 0.0
+   },
+   {
+    "image": 15,
+    "E_kT": 97.19,
+    "rms_to_nodes_deg": 0.0
+   }
+  ],
+  "wall_s": 2214.6
+ },
+ {
+  "pair": [
+   0,
+   51
+  ],
+  "saddle_abs_kT": 13366.022315785174,
+  "profile_rel_m0_kT": [
+   0.0,
+   8.1,
+   34.31,
+   83.95,
+   146.11,
+   155.85,
+   145.88,
+   334.73,
+   1032.06,
+   1985.81,
+   2303.93,
+   2464.2,
+   2514.56,
+   2470.4,
+   2274.85,
+   1339.06,
+   503.02,
+   195.28,
+   131.0
+  ],
+  "max_neighbour_rms_deg": 5.4,
+  "info": {
+   "converged": false,
+   "diverged": false,
+   "iters": 3000,
+   "final_maxF_A_per_m": 10318.3,
+   "climbing_image": true,
+   "time_s": 2048.7,
+   "solver": "GNEB-FIRE"
+  },
+  "minima": [
+   {
+    "image": 6,
+    "E_kT": 131.0,
+    "rms_to_nodes_deg": 0.0
+   }
+  ],
+  "wall_s": 2063.7
+ },
+ {
+  "pair": [
+   8,
+   21
+  ],
+  "saddle_abs_kT": 10953.25957602785,
+  "profile_rel_m0_kT": [
+   97.19,
+   99.78,
+   101.02,
+   85.86,
+   57.22,
+   31.59,
+   16.02,
+   6.81,
+   1.67,
+   0.02,
+   1.77,
+   7.09,
+   16.76,
+   33.63,
+   61.31,
+   90.03,
+   101.79,
+   99.23,
+   97.19
+  ],
+  "max_neighbour_rms_deg": 2.6,
+  "info": {
+   "converged": true,
+   "diverged": false,
+   "iters": 431,
+   "final_maxF_A_per_m": 497.0,
+   "climbing_image": true,
+   "time_s": 292.1,
+   "solver": "GNEB-FIRE"
+  },
+  "minima": [],
+  "wall_s": 292.1
+ },
+ {
+  "pair": [
+   8,
+   55
+  ],
+  "saddle_abs_kT": 10999.51251178224,
+  "profile_rel_m0_kT": [
+   97.19,
+   97.69,
+   99.21,
+   101.85,
+   105.75,
+   111.05,
+   117.79,
+   125.65,
+   133.8,
+   141.01,
+   146.07,
+   148.05,
+   147.25,
+   144.62,
+   140.8,
+   136.77,
+   133.54,
+   131.62,
+   131.0
+  ],
+  "max_neighbour_rms_deg": 1.1,
+  "info": {
+   "converged": true,
+   "diverged": false,
+   "iters": 226,
+   "final_maxF_A_per_m": 480.5,
+   "climbing_image": true,
+   "time_s": 197.6,
+   "solver": "GNEB-FIRE"
+  },
+  "minima": [],
+  "wall_s": 197.6
+ }
+]

@@ -1,0 +1,167 @@
+{
+ "size_nm": 150.0,
+ "mesh": "to_150nm.pat",
+ "n_nodes": 4409,
+ "n_tets": 24192,
+ "gs_search_s": 134.2,
+ "gs_candidates": {
+  "vortex111": {
+   "E_rel_kBT": 1.28,
+   "mean_m": 0.144,
+   "mean_m_dir": [
+    0.577,
+    0.578,
+    0.577
+   ],
+   "helicity": 0.038
+  },
+  "vortex001": {
+   "E_rel_kBT": 1.28,
+   "mean_m": 0.144,
+   "mean_m_dir": [
+    0.576,
+    0.578,
+    0.578
+   ],
+   "helicity": 0.038
+  },
+  "vortex110": {
+   "E_rel_kBT": 1.28,
+   "mean_m": 0.144,
+   "mean_m_dir": [
+    0.577,
+    0.578,
+    0.577
+   ],
+   "helicity": 0.038
+  },
+  "uniform111": {
+   "E_rel_kBT": 1.28,
+   "mean_m": 0.144,
+   "mean_m_dir": [
+    0.577,
+    0.578,
+    0.577
+   ],
+   "helicity": 0.038
+  },
+  "uniform110": {
+   "E_rel_kBT": 1.28,
+   "mean_m": 0.144,
+   "mean_m_dir": [
+    0.578,
+    0.578,
+    0.577
+   ],
+   "helicity": 0.038
+  },
+  "uniform001": {
+   "E_rel_kBT": 0.48,
+   "mean_m": 0.144,
+   "mean_m_dir": [
+    0.578,
+    -0.578,
+    0.577
+   ],
+   "helicity": -0.038
+  },
+  "random0": {
+   "E_rel_kBT": 0.56,
+   "mean_m": 0.144,
+   "mean_m_dir": [
+    0.577,
+    0.577,
+    -0.578
+   ],
+   "helicity": -0.038
+  },
+  "random1": {
+   "E_rel_kBT": 0.0,
+   "mean_m": 0.144,
+   "mean_m_dir": [
+    0.577,
+    -0.579,
+    -0.577
+   ],
+   "helicity": 0.038
+  },
+  "random2": {
+   "E_rel_kBT": 1.28,
+   "mean_m": 0.144,
+   "mean_m_dir": [
+    -0.577,
+    -0.578,
+    -0.578
+   ],
+   "helicity": 0.038
+  }
+ },
+ "m0_from": "random1",
+ "m0": {
+  "E_rel_kBT": 0.0,
+  "mean_m": 0.144,
+  "mean_m_dir": [
+   0.577,
+   -0.579,
+   -0.577
+  ],
+  "helicity": 0.038
+ },
+ "symdecomp": {
+  "subgroup": "proper",
+  "n_orbit_states": 8,
+  "minus_m0_match_rms_deg": 0.11,
+  "minimax_barrier_m0_to_minus_m0_kBT": 644.73,
+  "lowest_escape_barrier_kBT": 644.73,
+  "total_path_evals": 222,
+  "timing": {
+   "orbit_s": 1.61,
+   "relax_s": 1.97,
+   "hops_s": 292.5,
+   "total_s": 296.09
+  },
+  "n_classes": 2,
+  "hops": {
+   "1": {
+    "class": "class1_116deg",
+    "barrier_kBT": 1501.31,
+    "evals": 107,
+    "wall_s": 156.97
+   },
+   "4": {
+    "class": "class4_76deg",
+    "barrier_kBT": 644.73,
+    "evals": 115,
+    "wall_s": 135.53
+   }
+  },
+  "wall_s": 296.4
+ },
+ "default": {
+  "barrier_kBT": 1525.13,
+  "evals": 106,
+  "wall_s": 171.0,
+  "stop": "failed",
+  "profile_kBT": [
+   0.0,
+   146.5,
+   474.9,
+   644.0,
+   429.9,
+   109.5,
+   509.0,
+   1311.4,
+   1525.1,
+   1161.9,
+   715.0,
+   268.3,
+   18.4,
+   80.0,
+   386.8,
+   650.6,
+   629.6,
+   328.5,
+   0.0
+  ]
+ }
+}

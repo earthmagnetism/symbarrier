@@ -1,0 +1,33 @@
+{
+ "mode": "default",
+ "arg": "-",
+ "max_evals": 1000,
+ "end": "runs/S100/symfull/rep11_relaxed.dat",
+ "wall_s": 74.0,
+ "barrier_kBT": 1895.41,
+ "saddle_image": 4,
+ "profile_kBT": [
+  0.4,
+  18.3,
+  1633.0,
+  1895.4,
+  812.9,
+  140.5,
+  9.2,
+  39.6,
+  50.1,
+  47.6,
+  28.6,
+  1.9,
+  58.6,
+  166.9,
+  195.9,
+  131.3,
+  66.6,
+  23.4,
+  0.0
+ ],
+ "path_evals_by_stage": {
+  "neb": 138
+ }
+}

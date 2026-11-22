@@ -1,0 +1,32 @@
+{
+ "mode": "tec",
+ "arg": "data/merrill_validation/merrill_run/staged_finalpath.tec",
+ "max_evals": 1000,
+ "wall_s": 172.4,
+ "barrier_kBT": 1165.45,
+ "saddle_image": 4,
+ "profile_kBT": [
+  0.0,
+  1103.3,
+  1140.9,
+  1165.5,
+  1164.2,
+  1159.0,
+  1161.3,
+  1157.1,
+  1143.3,
+  1118.6,
+  1069.6,
+  874.7,
+  961.8,
+  988.5,
+  994.0,
+  1109.9,
+  1118.1,
+  1082.4,
+  0.0
+ ],
+ "path_evals_by_stage": {
+  "neb": 456
+ }
+}

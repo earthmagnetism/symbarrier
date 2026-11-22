@@ -1,0 +1,102 @@
+{
+ "backend": "MERRILL",
+ "n_point_group": 1,
+ "n_group_with_T": 2,
+ "n_nodes": 8,
+ "nodes_per_family": {
+  "0": 2,
+  "1": 2,
+  "2": 2,
+  "3": 2
+ },
+ "family_energy_kT": {
+  "0": 0.0,
+  "1": 19.74,
+  "2": 611.18,
+  "3": 531.95
+ },
+ "n_short_edges": 25,
+ "n_classes": 13,
+ "n_new_paths": 0,
+ "missing_classes": [],
+ "n_network_edges": 25,
+ "minimax_m0_to_minus_m0_kT": 743.0,
+ "escape_barrier_by_family_kT": {
+  "0": 370.0,
+  "1": 350.27,
+  "2": 104.26,
+  "3": 91.6
+ },
+ "hops": {
+  "0-1": {
+   "reused": true,
+   "n_bounds": 3,
+   "saddle_E_kT": 747.15
+  },
+  "0-2": {
+   "reused": true,
+   "n_bounds": 2,
+   "saddle_E_kT": 370.0
+  },
+  "0-3": {
+   "reused": true,
+   "n_bounds": 2,
+   "saddle_E_kT": 1358.75
+  },
+  "0-4": {
+   "reused": true,
+   "n_bounds": 2,
+   "saddle_E_kT": 1173.65
+  },
+  "0-5": {
+   "reused": true,
+   "n_bounds": 2,
+   "saddle_E_kT": 1126.76
+  },
+  "0-6": {
+   "reused": true,
+   "n_bounds": 1,
+   "saddle_E_kT": 623.55
+  },
+  "0-7": {
+   "reused": true,
+   "n_bounds": 1,
+   "saddle_E_kT": 743.0
+  },
+  "2-4": {
+   "reused": true,
+   "n_bounds": 2,
+   "saddle_E_kT": 715.44
+  },
+  "2-5": {
+   "reused": true,
+   "n_bounds": 2,
+   "saddle_E_kT": 778.84
+  },
+  "2-6": {
+   "reused": true,
+   "n_bounds": 1,
+   "saddle_E_kT": 1094.87
+  },
+  "2-7": {
+   "reused": true,
+   "n_bounds": 1,
+   "saddle_E_kT": 1300.63
+  },
+  "4-6": {
+   "reused": true,
+   "n_bounds": 1,
+   "saddle_E_kT": 2718.65
+  },
+  "4-7": {
+   "reused": true,
+   "n_bounds": 1,
+   "saddle_E_kT": 2808.98
+  }
+ },
+ "timing": {
+  "bookkeeping_s": 4.47,
+  "relax_s": 3.0,
+  "paths_s": 0.0
+ }
+}

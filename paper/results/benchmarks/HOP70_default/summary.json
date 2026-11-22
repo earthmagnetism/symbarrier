@@ -1,0 +1,33 @@
+{
+ "mode": "default",
+ "arg": "-",
+ "max_evals": 1000,
+ "end": "benchmarks/LEM/p05_8_relaxed.dat",
+ "wall_s": 120.8,
+ "barrier_kBT": 645.87,
+ "saddle_image": 10,
+ "profile_kBT": [
+  0.9,
+  17.3,
+  65.1,
+  140.8,
+  238.4,
+  349.1,
+  460.4,
+  556.6,
+  622.0,
+  645.9,
+  624.9,
+  561.5,
+  466.3,
+  354.9,
+  243.2,
+  143.9,
+  66.4,
+  17.1,
+  0.0
+ ],
+ "path_evals_by_stage": {
+  "neb": 129
+ }
+}

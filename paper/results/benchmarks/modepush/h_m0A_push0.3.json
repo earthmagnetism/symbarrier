@@ -1,0 +1,16 @@
+{
+ "label": "m0A_push0.3",
+ "system": "cube",
+ "image": 2,
+ "E_rel_first_kBT": 66.99,
+ "lowest_eigenvalues_kBT_per_rad2": [
+  -0.7092,
+  0.2056,
+  0.3706
+ ],
+ "n_negative": 1,
+ "n_matvec": 416,
+ "dim": 54000,
+ "max_tangent_force_kBT_per_rad": 0.014019404229824646,
+ "overlap_lowest_mode_with_band_tangent": 0.981
+}

@@ -1,0 +1,34 @@
+{
+ "mode": "covariant",
+ "arg": "1,0,0",
+ "max_evals": 1000,
+ "end": "benchmarks/LEM/ref10_relaxed.dat",
+ "endpoint_mismatch_rms_deg": null,
+ "wall_s": 287.1,
+ "barrier_kBT": 1064.29,
+ "saddle_image": 14,
+ "profile_kBT": [
+  1.3,
+  775.8,
+  778.2,
+  780.7,
+  781.1,
+  781.4,
+  781.2,
+  778.5,
+  753.8,
+  376.2,
+  666.0,
+  866.4,
+  1014.6,
+  1064.3,
+  1059.3,
+  1052.2,
+  1051.8,
+  804.6,
+  0.0
+ ],
+ "path_evals_by_stage": {
+  "neb": 746
+ }
+}

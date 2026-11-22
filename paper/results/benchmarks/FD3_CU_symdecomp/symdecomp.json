@@ -1,0 +1,141 @@
+{
+ "system": "cube",
+ "n_rotations": 48,
+ "n_orbit_states": 48,
+ "minus_m0_match_rms_deg": 0.008,
+ "classes": {
+  "class20": {
+   "rep": 20,
+   "members": [
+    20
+   ],
+   "rms_to_m0_deg": 29.4,
+   "stabiliser_size": 1
+  },
+  "class18": {
+   "rep": 18,
+   "members": [
+    18
+   ],
+   "rms_to_m0_deg": 29.4,
+   "stabiliser_size": 1
+  },
+  "class6": {
+   "rep": 6,
+   "members": [
+    6
+   ],
+   "rms_to_m0_deg": 35.7,
+   "stabiliser_size": 1
+  }
+ },
+ "hops": {
+  "20": {
+   "class": "class20_29deg",
+   "rms_to_m0_deg": 29.4,
+   "conv": true,
+   "iters": 497,
+   "image_iterations": 8449,
+   "barrier_from_m0_kBT": 116.47,
+   "E_end_rel_m0_kBT": -0.0,
+   "final_maxF": 1970.2,
+   "wall_s": 668.5,
+   "profile_rel_m0_kBT": [
+    -0.0,
+    4.0,
+    16.9,
+    41.7,
+    75.51,
+    105.15,
+    116.47,
+    98.46,
+    70.04,
+    53.84,
+    52.06,
+    64.86,
+    89.06,
+    113.13,
+    109.93,
+    72.7,
+    30.49,
+    6.8,
+    -0.0
+   ]
+  },
+  "18": {
+   "class": "class18_29deg",
+   "rms_to_m0_deg": 29.4,
+   "conv": true,
+   "iters": 497,
+   "image_iterations": 8449,
+   "barrier_from_m0_kBT": 116.47,
+   "E_end_rel_m0_kBT": -0.0,
+   "final_maxF": 1970.2,
+   "wall_s": 347.5,
+   "profile_rel_m0_kBT": [
+    -0.0,
+    6.8,
+    30.49,
+    72.7,
+    109.93,
+    113.13,
+    89.06,
+    64.86,
+    52.06,
+    53.84,
+    70.04,
+    98.46,
+    116.47,
+    105.15,
+    75.51,
+    41.7,
+    16.9,
+    4.0,
+    -0.0
+   ]
+  },
+  "6": {
+   "class": "class6_36deg",
+   "rms_to_m0_deg": 35.7,
+   "conv": true,
+   "iters": 276,
+   "image_iterations": 4692,
+   "barrier_from_m0_kBT": 116.36,
+   "E_end_rel_m0_kBT": -0.0,
+   "final_maxF": 1969.8,
+   "wall_s": 199.1,
+   "profile_rel_m0_kBT": [
+    -0.0,
+    5.97,
+    26.36,
+    65.07,
+    104.88,
+    115.59,
+    95.85,
+    70.85,
+    55.42,
+    50.41,
+    55.52,
+    71.53,
+    97.87,
+    116.36,
+    102.5,
+    63.47,
+    25.98,
+    5.94,
+    -0.0
+   ]
+  }
+ },
+ "minimax_barrier_m0_to_minus_m0_kBT": null,
+ "minimax_path_nodes": [
+  17
+ ],
+ "total_image_iterations": 21590,
+ "timing": {
+  "orbit_s": 2.99,
+  "relax_s": 0.84,
+  "hops_s": 1215.06,
+  "total_s": 1218.93
+ }
+}

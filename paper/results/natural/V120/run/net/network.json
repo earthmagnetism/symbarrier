@@ -1,0 +1,113 @@
+{
+ "n_shape_group": 1,
+ "n_group_with_T": 2,
+ "n_families": 3,
+ "n_nodes": 6,
+ "family_energy_kBT": {
+  "0": 0.0,
+  "1": 631.96,
+  "2": 671.13
+ },
+ "nodes_per_family": {
+  "0": 2,
+  "1": 2,
+  "2": 2
+ },
+ "K": 4,
+ "K_CROSS": 2,
+ "n_short_edges": 12,
+ "n_edge_classes": 6,
+ "n_edges_in_network": 12,
+ "endpoint_relax_shift_deg_max": 0.13,
+ "minus_m0_node": 1,
+ "minus_m0_match_deg": 0.0,
+ "minimax_m0_to_minus_m0_kBT": 800.95,
+ "hops": {
+  "0-2": {
+   "saddle_E_kBT": 763.91,
+   "barrier_from_a": 763.91,
+   "barrier_from_b": 131.95,
+   "stop": "stagnation",
+   "evals": 131,
+   "wall_s": 285.2,
+   "interior_minima_images": []
+  },
+  "0-3": {
+   "saddle_E_kBT": 800.95,
+   "barrier_from_a": 800.95,
+   "barrier_from_b": 168.99,
+   "stop": "failed",
+   "evals": 122,
+   "wall_s": 366.4,
+   "interior_minima_images": []
+  },
+  "0-4": {
+   "saddle_E_kBT": 789.4,
+   "barrier_from_a": 789.4,
+   "barrier_from_b": 118.27,
+   "stop": "stagnation",
+   "evals": 131,
+   "wall_s": 286.5,
+   "interior_minima_images": []
+  },
+  "0-5": {
+   "saddle_E_kBT": 844.89,
+   "barrier_from_a": 844.89,
+   "barrier_from_b": 173.76,
+   "stop": "stagnation",
+   "evals": 132,
+   "wall_s": 303.5,
+   "interior_minima_images": []
+  },
+  "2-4": {
+   "saddle_E_kBT": 1964.22,
+   "barrier_from_a": 1332.27,
+   "barrier_from_b": 1293.1,
+   "stop": "stagnation",
+   "evals": 613,
+   "wall_s": 463.1,
+   "interior_minima_images": [
+    11
+   ]
+  },
+  "2-5": {
+   "saddle_E_kBT": 854.38,
+   "barrier_from_a": 222.42,
+   "barrier_from_b": 183.25,
+   "stop": "failed",
+   "evals": 122,
+   "wall_s": 279.3,
+   "interior_minima_images": [
+    10
+   ]
+  }
+ },
+ "split_states": [
+  {
+   "hop": "2-4",
+   "image": 11,
+   "rms_to_nearest_node_deg": 20.7,
+   "new": true,
+   "file": "split_2_4_11_r.dat"
+  },
+  {
+   "hop": "2-5",
+   "image": 10,
+   "rms_to_nearest_node_deg": 0.0,
+   "new": false,
+   "file": "split_2_5_10_r.dat"
+  }
+ ],
+ "escape_barrier_by_family_kBT": {
+  "0": 763.91,
+  "1": 131.95,
+  "2": 118.27
+ },
+ "timing": {
+  "orbits_s": 3.5,
+  "relax_s": 17.0,
+  "hops_s": 1984.0,
+  "total_s": 2033.9
+ },
+ "total_path_evals": 1251
+}

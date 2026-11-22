@@ -1,0 +1,42 @@
+[
+ {
+  "pair": [
+   8,
+   55
+  ],
+  "saddle_abs_kT": 10999.51251178224,
+  "profile_rel_m0_kT": [
+   97.19,
+   97.69,
+   99.21,
+   101.85,
+   105.75,
+   111.05,
+   117.79,
+   125.65,
+   133.8,
+   141.01,
+   146.07,
+   148.05,
+   147.25,
+   144.62,
+   140.8,
+   136.77,
+   133.54,
+   131.62,
+   131.0
+  ],
+  "max_neighbour_rms_deg": 1.1,
+  "info": {
+   "converged": true,
+   "diverged": false,
+   "iters": 226,
+   "final_maxF_A_per_m": 480.5,
+   "climbing_image": true,
+   "time_s": 156.3,
+   "solver": "GNEB-FIRE"
+  },
+  "minima": [],
+  "wall_s": 156.4
+ }
+]

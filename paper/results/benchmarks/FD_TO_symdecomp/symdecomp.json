@@ -1,0 +1,106 @@
+{
+ "system": "truncoct",
+ "n_rotations": 24,
+ "n_orbit_states": 8,
+ "minus_m0_match_rms_deg": 0.0,
+ "classes": {
+  "75deg": {
+   "rep": 4,
+   "members": [
+    4,
+    5,
+    6
+   ],
+   "rms_to_m0_deg": 76.1
+  },
+  "115deg": {
+   "rep": 1,
+   "members": [
+    1,
+    2,
+    3
+   ],
+   "rms_to_m0_deg": 116.0
+  }
+ },
+ "hops": {
+  "4": {
+   "class": "75deg",
+   "rms_to_m0_deg": 76.1,
+   "conv": true,
+   "iters": 154,
+   "image_iterations": 2618,
+   "barrier_from_m0_kBT": 624.92,
+   "E_end_rel_m0_kBT": -0.0,
+   "final_maxF": 1979.6,
+   "wall_s": 115.8,
+   "profile_rel_m0_kBT": [
+    -0.0,
+    15.98,
+    62.62,
+    136.46,
+    231.63,
+    339.22,
+    446.97,
+    539.83,
+    602.73,
+    624.92,
+    602.73,
+    539.83,
+    446.97,
+    339.22,
+    231.63,
+    136.46,
+    62.62,
+    15.98,
+    -0.0
+   ]
+  },
+  "1": {
+   "class": "115deg",
+   "rms_to_m0_deg": 116.0,
+   "conv": true,
+   "iters": 171,
+   "image_iterations": 2907,
+   "barrier_from_m0_kBT": 1274.3,
+   "E_end_rel_m0_kBT": -0.0,
+   "final_maxF": 1970.5,
+   "wall_s": 126.8,
+   "profile_rel_m0_kBT": [
+    -0.0,
+    39.24,
+    154.04,
+    332.75,
+    553.69,
+    785.99,
+    992.22,
+    1145.6,
+    1241.16,
+    1274.3,
+    1241.16,
+    1145.6,
+    992.22,
+    785.99,
+    553.69,
+    332.75,
+    154.04,
+    39.24,
+    -0.0
+   ]
+  }
+ },
+ "minimax_barrier_m0_to_minus_m0_kBT": 624.92,
+ "minimax_path_nodes": [
+  0,
+  4,
+  1,
+  7
+ ],
+ "total_image_iterations": 5525,
+ "timing": {
+  "orbit_s": 0.14,
+  "relax_s": 0.56,
+  "hops_s": 242.57,
+  "total_s": 243.28
+ }
+}

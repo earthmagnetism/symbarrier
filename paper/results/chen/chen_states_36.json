@@ -1,0 +1,120 @@
+{
+ "N": [
+  36,
+  30,
+  24
+ ],
+ "dx_nm": 2.9166666666666665,
+ "relax_s": 113.7,
+ "states": {
+  "vortex": {
+   "E_minus_vortex_kT": 0.0,
+   "orbit": 4,
+   "stabiliser": [
+    "diag(1, 1, 1)",
+    "T\u00b7diag(1, -1, -1)",
+    "T\u00b7diag(-1, 1, -1)",
+    "diag(-1, -1, 1)"
+   ],
+   "mean_m": [
+    0.0,
+    0.0,
+    0.206
+   ]
+  },
+  "uniform_x": {
+   "E_minus_vortex_kT": 979.98,
+   "orbit": 2,
+   "stabiliser": [
+    "diag(1, 1, 1)",
+    "T\u00b7diag(1, 1, -1)",
+    "T\u00b7diag(1, -1, 1)",
+    "diag(1, -1, -1)",
+    "diag(-1, 1, 1)",
+    "T\u00b7diag(-1, 1, -1)",
+    "T\u00b7diag(-1, -1, 1)",
+    "diag(-1, -1, -1)"
+   ],
+   "mean_m": [
+    0.959,
+    0.0,
+    -0.0
+   ]
+  },
+  "tilted_x": {
+   "E_minus_vortex_kT": 910.15,
+   "orbit": 4,
+   "stabiliser": [
+    "diag(1, 1, 1)",
+    "diag(1, -1, -1)",
+    "diag(-1, 1, 1)",
+    "diag(-1, -1, -1)"
+   ],
+   "mean_m": [
+    0.911,
+    0.0,
+    -0.0
+   ]
+  },
+  "perturbed_flower": {
+   "E_minus_vortex_kT": 467.94,
+   "orbit": 4,
+   "stabiliser": [
+    "diag(1, 1, 1)",
+    "diag(1, -1, -1)",
+    "T\u00b7diag(-1, 1, -1)",
+    "T\u00b7diag(-1, -1, 1)"
+   ],
+   "mean_m": [
+    0.728,
+    0.0,
+    -0.0
+   ]
+  },
+  "perturbed_flower_1": {
+   "E_minus_vortex_kT": 467.94,
+   "orbit": 4,
+   "stabiliser": [
+    "diag(1, 1, 1)",
+    "diag(1, -1, -1)",
+    "T\u00b7diag(-1, 1, -1)",
+    "T\u00b7diag(-1, -1, 1)"
+   ],
+   "mean_m": [
+    0.728,
+    -0.0,
+    -0.0
+   ]
+  },
+  "perturbed_flower_2": {
+   "E_minus_vortex_kT": 467.94,
+   "orbit": 4,
+   "stabiliser": [
+    "diag(1, 1, 1)",
+    "diag(1, -1, -1)",
+    "T\u00b7diag(-1, 1, -1)",
+    "T\u00b7diag(-1, -1, 1)"
+   ],
+   "mean_m": [
+    0.728,
+    0.0,
+    -0.0
+   ]
+  },
+  "perturbed_flower_3": {
+   "E_minus_vortex_kT": 467.94,
+   "orbit": 4,
+   "stabiliser": [
+    "diag(1, 1, 1)",
+    "diag(1, -1, -1)",
+    "T\u00b7diag(-1, 1, -1)",
+    "T\u00b7diag(-1, -1, 1)"
+   ],
+   "mean_m": [
+    0.728,
+    0.0,
+    0.0
+   ]
+  }
+ }
+}

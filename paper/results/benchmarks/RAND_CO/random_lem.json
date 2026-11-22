@@ -1,0 +1,77 @@
+{
+ "n_seeds": 30,
+ "wall_s": 612.4,
+ "wall_per_seed_s": 20.41,
+ "orbit_size": 6,
+ "n_distinct_LEMs": 11,
+ "orbit_states_found": 5,
+ "seeds_to_cover_orbit": null,
+ "distinct": [
+  {
+   "E_rel_m0_kBT": -0.31,
+   "orbit_index": null,
+   "first_seed": 12,
+   "count": 5
+  },
+  {
+   "E_rel_m0_kBT": -0.3,
+   "orbit_index": null,
+   "first_seed": 5,
+   "count": 2
+  },
+  {
+   "E_rel_m0_kBT": -0.05,
+   "orbit_index": 0,
+   "first_seed": 18,
+   "count": 2
+  },
+  {
+   "E_rel_m0_kBT": -0.04,
+   "orbit_index": 1,
+   "first_seed": 4,
+   "count": 3
+  },
+  {
+   "E_rel_m0_kBT": -0.04,
+   "orbit_index": 3,
+   "first_seed": 11,
+   "count": 3
+  },
+  {
+   "E_rel_m0_kBT": -0.04,
+   "orbit_index": 2,
+   "first_seed": 17,
+   "count": 2
+  },
+  {
+   "E_rel_m0_kBT": 0.4,
+   "orbit_index": null,
+   "first_seed": 2,
+   "count": 1
+  },
+  {
+   "E_rel_m0_kBT": 0.4,
+   "orbit_index": null,
+   "first_seed": 15,
+   "count": 3
+  },
+  {
+   "E_rel_m0_kBT": 3.94,
+   "orbit_index": 4,
+   "first_seed": 0,
+   "count": 6
+  },
+  {
+   "E_rel_m0_kBT": 4.38,
+   "orbit_index": null,
+   "first_seed": 1,
+   "count": 2
+  },
+  {
+   "E_rel_m0_kBT": 4.38,
+   "orbit_index": null,
+   "first_seed": 29,
+   "count": 1
+  }
+ ]
+}

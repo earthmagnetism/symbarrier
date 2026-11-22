@@ -1,0 +1,62 @@
+{
+ "n_rotations": 24,
+ "n_orbit_states": 6,
+ "m0_node": 0,
+ "minus_m0_node": 1,
+ "minus_m0_match_rms_deg": 1.54,
+ "classes": {
+  "95deg": {
+   "rep": 2,
+   "members": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "rms_to_m0_deg": 93.0
+  }
+ },
+ "hops": {
+  "2": {
+   "class": "95deg",
+   "barrier_kBT": 195.8,
+   "evals": 115,
+   "wall_s": 122.91,
+   "profile_kBT": [
+    0.0,
+    4.3,
+    16.3,
+    37.2,
+    65.4,
+    99.5,
+    135.1,
+    166.6,
+    188.0,
+    195.8,
+    189.4,
+    169.5,
+    139.2,
+    104.2,
+    70.4,
+    41.6,
+    19.6,
+    5.6,
+    0.0
+   ]
+  }
+ },
+ "minimax_barrier_m0_to_minus_m0_kBT": 195.8,
+ "minimax_path_nodes": [
+  0,
+  2,
+  1
+ ],
+ "lowest_escape_barrier_kBT": 195.8,
+ "timing": {
+  "orbit_s": 2.43,
+  "relax_s": 5.36,
+  "hops_s": 122.91,
+  "total_s": 130.71
+ },
+ "total_path_evals": 115
+}

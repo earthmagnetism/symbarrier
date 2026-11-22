@@ -1,0 +1,192 @@
+[
+ {
+  "mesh": "truncated octahedron 80 nm",
+  "n_mesh_nodes": 597,
+  "n_tets": 2976,
+  "G": 48,
+  "G_T": 96,
+  "orbit": 16,
+  "short_edges": 33,
+  "classes": 3,
+  "all_pairs": 120,
+  "network_edges": 40,
+  "time_s": {
+   "detect": 0.014,
+   "interp_setup": 0.003,
+   "orbit_perm": 0.457,
+   "graph_classes": 0.003,
+   "total": 0.477
+  }
+ },
+ {
+  "mesh": "truncated octahedron 100 nm",
+  "n_mesh_nodes": 1909,
+  "n_tets": 10152,
+  "G": 48,
+  "G_T": 96,
+  "orbit": 16,
+  "short_edges": 33,
+  "classes": 3,
+  "all_pairs": 120,
+  "network_edges": 40,
+  "time_s": {
+   "detect": 0.08,
+   "interp_setup": 0.019,
+   "orbit_perm": 1.861,
+   "graph_classes": 0.006,
+   "total": 1.935
+  }
+ },
+ {
+  "mesh": "truncated octahedron 150 nm",
+  "n_mesh_nodes": 4409,
+  "n_tets": 24192,
+  "G": 48,
+  "G_T": 96,
+  "orbit": 16,
+  "short_edges": 33,
+  "classes": 3,
+  "all_pairs": 120,
+  "network_edges": 40,
+  "time_s": {
+   "detect": 0.178,
+   "interp_setup": 0.028,
+   "orbit_perm": 4.132,
+   "graph_classes": 0.007,
+   "total": 4.344
+  }
+ },
+ {
+  "mesh": "truncated octahedron 150 nm, proper only",
+  "n_mesh_nodes": 4409,
+  "n_tets": 24192,
+  "G": 24,
+  "G_T": 48,
+  "orbit": 8,
+  "short_edges": 19,
+  "classes": 3,
+  "all_pairs": 28,
+  "network_edges": 28,
+  "time_s": {
+   "detect": 0.095,
+   "interp_setup": 0.032,
+   "orbit_perm": 2.162,
+   "graph_classes": 0.003,
+   "total": 2.291
+  }
+ },
+ {
+  "mesh": "truncated octahedron 150 nm, rotated",
+  "n_mesh_nodes": 4409,
+  "n_tets": 24192,
+  "G": 2,
+  "G_T": 4,
+  "orbit": 4,
+  "short_edges": 6,
+  "classes": 3,
+  "all_pairs": 6,
+  "network_edges": 6,
+  "time_s": {
+   "detect": 0.188,
+   "interp_setup": 0.043,
+   "orbit_perm": 0.161,
+   "graph_classes": 0.001,
+   "total": 0.424
+  }
+ },
+ {
+  "mesh": "truncated octahedron 180 nm",
+  "n_mesh_nodes": 8481,
+  "n_tets": 47400,
+  "G": 48,
+  "G_T": 96,
+  "orbit": 16,
+  "short_edges": 33,
+  "classes": 3,
+  "all_pairs": 120,
+  "network_edges": 40,
+  "time_s": {
+   "detect": 0.26,
+   "interp_setup": 0.057,
+   "orbit_perm": 7.887,
+   "graph_classes": 0.012,
+   "total": 8.325
+  }
+ },
+ {
+  "mesh": "truncated octahedron 250 nm",
+  "n_mesh_nodes": 22877,
+  "n_tets": 130536,
+  "G": 48,
+  "G_T": 96,
+  "orbit": 16,
+  "short_edges": 33,
+  "classes": 3,
+  "all_pairs": 120,
+  "network_edges": 40,
+  "time_s": {
+   "detect": 0.788,
+   "interp_setup": 0.17,
+   "orbit_perm": 21.951,
+   "graph_classes": 0.032,
+   "total": 22.939
+  }
+ },
+ {
+  "mesh": "prism 120x120x200 nm (FE)",
+  "n_mesh_nodes": 6429,
+  "n_tets": 34560,
+  "G": 16,
+  "G_T": 32,
+  "orbit": 16,
+  "short_edges": 35,
+  "classes": 5,
+  "all_pairs": 120,
+  "network_edges": 48,
+  "time_s": {
+   "detect": 0.217,
+   "interp_setup": 0.041,
+   "orbit_perm": 1.995,
+   "graph_classes": 0.011,
+   "total": 2.225
+  }
+ },
+ {
+  "mesh": "prism grid 24x24x40 (FD)",
+  "n_mesh_nodes": 23040,
+  "n_tets": 0,
+  "G": 16,
+  "G_T": 32,
+  "orbit": 16,
+  "short_edges": 37,
+  "classes": 5,
+  "all_pairs": 120,
+  "network_edges": 48,
+  "time_s": {
+   "detect": 1.045,
+   "interp_setup": 0.008,
+   "orbit_perm": 0.677,
+   "graph_classes": 0.028,
+   "total": 1.742
+  }
+ },
+ {
+  "mesh": "prism grid 36x36x60 (FD)",
+  "n_mesh_nodes": 77760,
+  "n_tets": 0,
+  "G": 16,
+  "G_T": 32,
+  "orbit": 16,
+  "short_edges": 37,
+  "classes": 5,
+  "all_pairs": 120,
+  "network_edges": 48,
+  "time_s": {
+   "detect": 3.098,
+   "interp_setup": 0.027,
+   "orbit_perm": 2.355,
+   "graph_classes": 0.098,
+   "total": 5.605
+  }
+ }
+]

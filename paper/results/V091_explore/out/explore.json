@@ -1,0 +1,22 @@
+[
+ {
+  "round": 1,
+  "n_families": 3,
+  "n_nodes": 6,
+  "n_classes": 7,
+  "n_new_paths": 7,
+  "n_split_candidates": 7,
+  "n_new_families": 0,
+  "minimax_kT": 778.84,
+  "escape_kT": {
+   "0": 370.0,
+   "1": 350.27,
+   "2": 104.26
+  },
+  "timing": {
+   "bookkeeping_s": 2.36,
+   "relax_s": 6.3,
+   "paths_s": 3508.1
+  }
+ }
+]

@@ -1,0 +1,33 @@
+{
+ "mode": "default",
+ "arg": "-",
+ "max_evals": 1000,
+ "end": "runs/PRISM/sym/rep6_relaxed.dat",
+ "wall_s": 450.2,
+ "barrier_kBT": 1248.97,
+ "saddle_image": 10,
+ "profile_kBT": [
+  0.9,
+  31.3,
+  116.7,
+  121.6,
+  137.8,
+  289.5,
+  487.6,
+  656.4,
+  1120.7,
+  1249.0,
+  975.8,
+  881.3,
+  908.2,
+  790.6,
+  631.4,
+  361.3,
+  207.3,
+  111.5,
+  0.0
+ ],
+ "path_evals_by_stage": {
+  "neb": 121
+ }
+}

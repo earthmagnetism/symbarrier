@@ -1,0 +1,179 @@
+{
+ "size_nm": 150.0,
+ "mesh": "prism_120x120x200.pat",
+ "n_nodes": 6429,
+ "n_tets": 34560,
+ "gs_search_s": 371.0,
+ "gs_candidates": {
+  "vortex111": {
+   "E_rel_kBT": 88.62,
+   "mean_m": 0.074,
+   "mean_m_dir": [
+    0.772,
+    0.183,
+    0.609
+   ],
+   "helicity": 0.06
+  },
+  "vortex001": {
+   "E_rel_kBT": 708.8,
+   "mean_m": 0.325,
+   "mean_m_dir": [
+    -0.164,
+    -0.165,
+    0.973
+   ],
+   "helicity": 0.064
+  },
+  "vortex110": {
+   "E_rel_kBT": 1022.92,
+   "mean_m": 0.15,
+   "mean_m_dir": [
+    0.706,
+    0.706,
+    -0.043
+   ],
+   "helicity": 0.067
+  },
+  "uniform111": {
+   "E_rel_kBT": 708.42,
+   "mean_m": 0.325,
+   "mean_m_dir": [
+    -0.165,
+    -0.164,
+    0.972
+   ],
+   "helicity": -0.064
+  },
+  "uniform110": {
+   "E_rel_kBT": 0.0,
+   "mean_m": 0.015,
+   "mean_m_dir": [
+    0.022,
+    0.977,
+    -0.211
+   ],
+   "helicity": -0.062
+  },
+  "uniform001": {
+   "E_rel_kBT": 1245.14,
+   "mean_m": 0.467,
+   "mean_m_dir": [
+    -0.0,
+    -0.001,
+    1.0
+   ],
+   "helicity": 0.062
+  },
+  "random0": {
+   "E_rel_kBT": 113.34,
+   "mean_m": 0.129,
+   "mean_m_dir": [
+    -0.0,
+    0.784,
+    -0.62
+   ],
+   "helicity": 0.058
+  },
+  "random1": {
+   "E_rel_kBT": 88.25,
+   "mean_m": 0.074,
+   "mean_m_dir": [
+    0.181,
+    0.774,
+    0.607
+   ],
+   "helicity": -0.06
+  },
+  "random2": {
+   "E_rel_kBT": 88.35,
+   "mean_m": 0.074,
+   "mean_m_dir": [
+    -0.774,
+    0.179,
+    0.607
+   ],
+   "helicity": 0.06
+  }
+ },
+ "m0_from": "uniform110",
+ "m0": {
+  "E_rel_kBT": 0.0,
+  "mean_m": 0.015,
+  "mean_m_dir": [
+   0.022,
+   0.977,
+   -0.211
+  ],
+  "helicity": -0.062
+ },
+ "symdecomp": {
+  "subgroup": "full",
+  "n_orbit_states": 8,
+  "minus_m0_match_rms_deg": 0.0,
+  "minimax_barrier_m0_to_minus_m0_kBT": 1248.97,
+  "lowest_escape_barrier_kBT": 1248.97,
+  "total_path_evals": 454,
+  "timing": {
+   "orbit_s": 4.1,
+   "relax_s": 53.74,
+   "hops_s": 1729.08,
+   "total_s": 1786.95
+  },
+  "n_classes": 4,
+  "hops": {
+   "2": {
+    "class": "class2_55deg",
+    "barrier_kBT": 3974.44,
+    "evals": 107,
+    "wall_s": 334.98
+   },
+   "3": {
+    "class": "class3_137deg",
+    "barrier_kBT": 3876.45,
+    "evals": 134,
+    "wall_s": 523.49
+   },
+   "4": {
+    "class": "class4_104deg",
+    "barrier_kBT": 3494.93,
+    "evals": 106,
+    "wall_s": 420.08
+   },
+   "6": {
+    "class": "class6_97deg",
+    "barrier_kBT": 1248.97,
+    "evals": 107,
+    "wall_s": 450.53
+   }
+  },
+  "wall_s": 1787.3
+ },
+ "default": {
+  "barrier_kBT": 1232.73,
+  "evals": 105,
+  "wall_s": 472.2,
+  "stop": "failed",
+  "profile_kBT": [
+   0.0,
+   66.1,
+   123.1,
+   190.5,
+   499.9,
+   595.9,
+   753.9,
+   793.6,
+   705.5,
+   590.5,
+   1070.9,
+   1232.7,
+   799.6,
+   640.4,
+   528.3,
+   315.4,
+   278.3,
+   286.2,
+   0.0
+  ]
+ }
+}

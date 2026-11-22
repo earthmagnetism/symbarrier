@@ -1,0 +1,59 @@
+{
+ "n_shape_rotations": 8,
+ "candidates_1based": [
+  7,
+  10
+ ],
+ "states": [
+  {
+   "image": 7,
+   "E_unrelaxed": -1131.61,
+   "E_relaxed_rel_m0_kBT": -1150.35,
+   "mean_m": [
+    0.0,
+    -0.104,
+    0.081
+   ],
+   "H_over_H0": 0.953,
+   "closest_g_m0_deg": 71.3,
+   "closest_minus_g_m0_deg": 71.3,
+   "dist_to_known_deg": [
+    [
+     "m0",
+     71.3
+    ],
+    [
+     "-m0",
+     118.5
+    ]
+   ]
+  },
+  {
+   "image": 10,
+   "E_unrelaxed": -1277.83,
+   "E_relaxed_rel_m0_kBT": -1278.07,
+   "mean_m": [
+    0.0,
+    -0.0137,
+    -0.0
+   ],
+   "H_over_H0": 1.009,
+   "closest_g_m0_deg": 96.24,
+   "closest_minus_g_m0_deg": 96.24,
+   "dist_to_known_deg": [
+    [
+     "m0",
+     96.2
+    ],
+    [
+     "-m0",
+     96.2
+    ],
+    [
+     "img7",
+     31.0
+    ]
+   ]
+  }
+ ]
+}

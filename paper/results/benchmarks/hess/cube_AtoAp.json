@@ -1,0 +1,16 @@
+{
+ "label": "cube_AtoAp",
+ "system": "cube",
+ "image": 6,
+ "E_rel_first_kBT": 436.54,
+ "lowest_eigenvalues_kBT_per_rad2": [
+  -0.3855,
+  -0.08225,
+  0.2057
+ ],
+ "n_negative": 2,
+ "n_matvec": 409,
+ "dim": 54000,
+ "max_tangent_force_kBT_per_rad": 0.035685727583812145,
+ "overlap_lowest_mode_with_band_tangent": 1.0
+}

@@ -1,0 +1,101 @@
+{
+ "subgroup": "proper",
+ "n_rotations": 24,
+ "n_orbit_states": 8,
+ "m0_node": 0,
+ "minus_m0_node": 6,
+ "minus_m0_match_rms_deg": 0.08,
+ "classes": {
+  "class1": {
+   "rep": 1,
+   "members": [
+    1,
+    2,
+    3
+   ],
+   "rms_to_m0_deg": 119.0,
+   "stabiliser_size": 3
+  },
+  "class4": {
+   "rep": 4,
+   "members": [
+    4,
+    5,
+    7
+   ],
+   "rms_to_m0_deg": 77.2,
+   "stabiliser_size": 3
+  }
+ },
+ "hops": {
+  "1": {
+   "class": "class1_119deg",
+   "barrier_kBT": 7123.27,
+   "evals": 111,
+   "wall_s": 1616.06,
+   "profile_kBT": [
+    0.9,
+    256.5,
+    969.0,
+    1812.2,
+    2402.6,
+    2170.3,
+    1381.5,
+    515.4,
+    84.3,
+    1942.6,
+    5118.3,
+    7123.3,
+    6859.8,
+    4996.1,
+    3521.3,
+    2265.4,
+    1072.8,
+    276.1,
+    0.0
+   ]
+  },
+  "4": {
+   "class": "class4_77deg",
+   "barrier_kBT": 2425.98,
+   "evals": 112,
+   "wall_s": 1360.24,
+   "profile_kBT": [
+    0.0,
+    58.9,
+    231.7,
+    510.7,
+    878.4,
+    1297.0,
+    1685.4,
+    2028.1,
+    2301.9,
+    2426.0,
+    2335.5,
+    2081.2,
+    1737.7,
+    1344.2,
+    912.9,
+    533.3,
+    243.3,
+    62.1,
+    0.1
+   ]
+  }
+ },
+ "minimax_barrier_m0_to_minus_m0_kBT": 2425.98,
+ "minimax_path_nodes": [
+  0,
+  4,
+  1,
+  6
+ ],
+ "lowest_escape_barrier_kBT": 2425.98,
+ "timing": {
+  "orbit_s": 10.81,
+  "relax_s": 16.89,
+  "hops_s": 2976.3,
+  "total_s": 3004.02
+ },
+ "total_path_evals": 223
+}

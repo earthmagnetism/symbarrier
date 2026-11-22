@@ -1,0 +1,49 @@
+{
+ "class": "0-4",
+ "barrier_kT": 3089.45,
+ "info": {
+  "converged": false,
+  "diverged": false,
+  "iters": 3000,
+  "final_maxF_A_per_m": 149496.6,
+  "climbing_image": true,
+  "time_s": 1797.8,
+  "solver": "GNEB-FIRE"
+ },
+ "profile_kT": [
+  0.0,
+  440.07,
+  1056.03,
+  1667.83,
+  2182.55,
+  3089.45,
+  2799.31,
+  317.77,
+  12.96,
+  255.94,
+  579.69,
+  871.01,
+  1027.46,
+  1062.5,
+  986.36,
+  785.36,
+  480.53,
+  149.32,
+  -0.0
+ ],
+ "max_neighbour_rms_deg": 11.5,
+ "minima": [
+  {
+   "image": 8,
+   "band_E_kT": 12.96,
+   "relaxed_E_kT": 0.0,
+   "finite": true,
+   "rms_to_orbit_deg": 0.0,
+   "mean_m": [
+    -0.0,
+    0.014,
+    0.0
+   ]
+  }
+ ]
+}

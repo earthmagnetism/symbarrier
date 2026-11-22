@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "symbarrier"
+version = "0.2.0"
+description = "Symmetry quotient networks and verifiable upper bounds for energy barriers in micromagnetic grain models"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Xiang Zhao"}, {name = "Xiangyu Zhao"}]
+dependencies = ["numpy>=1.22", "scipy>=1.8"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+fd = ["magnumnp>=2.2", "torch"]
+
+[project.scripts]
+symbarrier-network = "symbarrier.cli:main"
+
+[tool.setuptools]
+packages = ["symbarrier", "symbarrier.backends"]

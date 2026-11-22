@@ -1,0 +1,108 @@
+{
+ "n_shape_group": 1,
+ "n_group_with_T": 2,
+ "n_families": 2,
+ "n_nodes": 4,
+ "family_energy_kBT": {
+  "0": 0.0,
+  "1": 21.1
+ },
+ "nodes_per_family": {
+  "0": 2,
+  "1": 2
+ },
+ "K": 4,
+ "K_CROSS": 2,
+ "n_short_edges": 6,
+ "n_edge_classes": 4,
+ "n_edges_in_network": 6,
+ "endpoint_relax_shift_deg_max": 0.03,
+ "minus_m0_node": 1,
+ "minus_m0_match_deg": 0.0,
+ "minimax_m0_to_minus_m0_kBT": 650.54,
+ "hops": {
+  "0-1": {
+   "saddle_E_kBT": 650.54,
+   "barrier_from_a": 650.54,
+   "barrier_from_b": 650.54,
+   "stop": "failed",
+   "evals": 110,
+   "wall_s": 593.6,
+   "interior_minima_images": [
+    16
+   ]
+  },
+  "0-2": {
+   "saddle_E_kBT": 3112.11,
+   "barrier_from_a": 3112.11,
+   "barrier_from_b": 3091.01,
+   "stop": "stagnation",
+   "evals": 142,
+   "wall_s": 319.9,
+   "interior_minima_images": []
+  },
+  "0-3": {
+   "saddle_E_kBT": 3287.28,
+   "barrier_from_a": 3287.28,
+   "barrier_from_b": 3266.18,
+   "stop": "failed",
+   "evals": 105,
+   "wall_s": 713.6,
+   "interior_minima_images": [
+    5,
+    10,
+    17
+   ]
+  },
+  "2-3": {
+   "saddle_E_kBT": 621.64,
+   "barrier_from_a": 600.54,
+   "barrier_from_b": 600.54,
+   "stop": "failed",
+   "evals": 106,
+   "wall_s": 500.4,
+   "interior_minima_images": []
+  }
+ },
+ "split_states": [
+  {
+   "hop": "0-1",
+   "image": 16,
+   "rms_to_nearest_node_deg": 0.3,
+   "new": false,
+   "file": "split_0_1_16_r.dat"
+  },
+  {
+   "hop": "0-3",
+   "image": 5,
+   "rms_to_nearest_node_deg": 0.7,
+   "new": false,
+   "file": "split_0_3_5_r.dat"
+  },
+  {
+   "hop": "0-3",
+   "image": 10,
+   "rms_to_nearest_node_deg": 0.3,
+   "new": false,
+   "file": "split_0_3_10_r.dat"
+  },
+  {
+   "hop": "0-3",
+   "image": 17,
+   "rms_to_nearest_node_deg": 0.3,
+   "new": false,
+   "file": "split_0_3_17_r.dat"
+  }
+ ],
+ "escape_barrier_by_family_kBT": {
+  "0": 650.54,
+  "1": 600.54
+ },
+ "timing": {
+  "orbits_s": 4.9,
+  "relax_s": 32.4,
+  "hops_s": 2127.5,
+  "total_s": 2438.7
+ },
+ "total_path_evals": 463
+}
