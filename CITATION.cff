@@ -3,7 +3,7 @@ message: "If you use this software, please cite the article below."
 title: "symbarrier: symmetry quotient networks for micromagnetic energy barriers"
 version: 0.2.0
 license: MIT
-repository-code: "https://github.com/sungchao/symbarrier"
+repository-code: "https://github.com/earthmagnetism/symbarrier"
 keywords:
   - micromagnetics
   - paleomagnetism
