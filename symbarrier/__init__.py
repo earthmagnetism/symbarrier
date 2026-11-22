@@ -9,4 +9,4 @@ Modules
   backends  solver interface; MerrillBackend (FE) and MagnumNPBackend (FD, GNEB-FIRE)
   workflow  run_network (Algorithm 1) and explore (Algorithm 2, adaptive closure with path reuse)
 """
-__version__ = "0.2.0"
+__version__ = "1.0.1"

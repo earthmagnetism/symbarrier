@@ -6,6 +6,11 @@
 MERRILL seeds are .dat files (x y z mx my mz per node, MERRILL node order). Grid seeds are .npy arrays of shape
 (N_x, N_y, N_z, 3). The first seed is m0. --explore adds intermediate minima found on bands as new families until
 none is new.
+
+Assumptions: cubic anisotropy (the group is searched in O_h), crystal axes along the x, y, z axes of the mesh or grid
+(rotate the mesh for another orientation), zero applied field. Default material: magnetite at 20 C; MERRILL accepts any
+material line (--material, --extra); the grid backend takes the presets 'fd' or 'merrill20C', or any dict of Ms, A, K1,
+K2 through the Python API.
 """
 import argparse
 import json

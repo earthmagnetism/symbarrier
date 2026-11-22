@@ -40,6 +40,14 @@ Given a discretised grain (tetrahedral mesh or regular grid with a mask) and one
 
 The reduction is up to 96-fold for O_h, 32-fold for D4h, 4-fold for any centrosymmetric shape (inversion survives every crystal orientation) and 2-fold for a grain without point symmetry.
 
+## Assumptions and scope
+
+- **Crystal symmetry.** The point group is searched among the 48 elements of O_h, the symmetry group of cubic magnetocrystalline anisotropy. The energy must be invariant under every element found, so the package applies as is to cubic minerals (magnetite, titanomagnetite, greigite, metallic iron and others) with any combination of exchange, demagnetising and cubic anisotropy energy. Non-cubic anisotropy (uniaxial, hexagonal or trigonal, e.g. hematite or pyrrhotite) needs a group restricted to the symmetry of that anisotropy, which is not implemented.
+- **Crystal axes.** The cubic axes are the x, y and z axes of the mesh or grid. For another crystal orientation, rotate the mesh about its centroid before the run (`paper/scripts/rotate_pat.py` does this for PATRAN meshes and records the rotation). A centrosymmetric grain rotated away from the axes keeps only the identity and the inversion (2 elements, 4 with time reversal); an irregular grain keeps only the identity.
+- **Material.** Default: magnetite at 20 °C. MERRILL backend: any MERRILL material line (`--material "Type=Magnetite, TempC=300"`, or explicit constants through `--extra`). Grid backend: the presets `fd` and `merrill20C` on the command line, or any dictionary with `Ms`, `A`, `K1` and `K2` (SI units) passed as `material=` to `MagnumNPBackend` in Python.
+- **Field.** Zero applied field. A field breaks time reversal; only the elements that leave the field direction invariant remain a symmetry.
+- **Bounds.** Barriers are upper bounds given by the computed paths; states outside the seed families are found only by the adaptive loop or by further seeds.
+
 ## Install
 
 ```
@@ -99,7 +107,7 @@ Any machine that runs the chosen solver; all paper timings are single-core.
 
 Xiang Zhao and Xiangyu Zhao. Symmetry quotient networks: automatic reduction and verifiable upper bounds for energy barriers in micromagnetic models of magnetic grains. Submitted to *Computers & Geosciences*.
 
-The software metadata are in `CITATION.cff`; GitHub shows them under "Cite this repository".
+Software: symbarrier v1.0.1, https://doi.org/10.5281/zenodo.24433176. The software metadata are in `CITATION.cff`; GitHub shows them under "Cite this repository".
 
 ## License
 
